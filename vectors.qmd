@@ -4,13 +4,22 @@ title: "Vectors"
 
 # Vector Basics
 
-## Position vectors
+## Vector Definitions
 
-The *position vector* of a point shows how to get to that point *from the origin*.
+A vector is a quantity with **direction** as well as **magnitude** (length), especially as used in determining the position of one point in space relative to another a point.
 
 ![Points on a coordinate plane](img/vec points on a coord plane.png)
-The *position vector* of point P is $\begin{pmatrix}1 \\3\end{pmatrix}$. We write $\vec{OP} = \begin{pmatrix}1 \\3\end{pmatrix}$.
-What is the position vector of Q?
+
+The **position vector** of a point is the vector from the origin to that point. The position vector of point P is $\begin{pmatrix}1 \\3\end{pmatrix}$. We write $\vec{OP} = \begin{pmatrix}1 \\3\end{pmatrix}$.
+
+Vectors written in the form $\begin{pmatrix}x\\y\end{pmatrix}$ are called **column vectors**.
+
+**Check your understanding:**
+
+1. What is the position vector of Q written as a column vector?
+1. What is the vector $\vec{PQ}$ as a column vector?
+1. How about $\vec{QP}$?
+1. If the vector $\vec{AB}$ is $\begin{pmatrix}x\\y\end{pmatrix}$, then what is the vector $\vec{BA}$?
 
 ## Column vectors
 
