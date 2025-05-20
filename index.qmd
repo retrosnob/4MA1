@@ -1,5 +1,6 @@
 ---
 title: "4MA1"
+sidebar: true
 ---
 
 Use the sidebar to choose a topic.
