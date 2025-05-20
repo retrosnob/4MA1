@@ -80,13 +80,6 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "4MA1",
-    "section": "",
-    "text": "Use the sidebar to choose a topic."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -94,10 +87,10 @@
     "text": "About this site"
   },
   {
-    "objectID": "test.html",
-    "href": "test.html",
-    "title": "Untitled",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "4MA1",
     "section": "",
-    "text": "Does this auto-render? No."
+    "text": "Use the sidebar to choose a topic."
   }
 ]
