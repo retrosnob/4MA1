@@ -2,6 +2,6 @@
 title: "4MA1"
 ---
 
-This is a Quarto website.
+This is a Quarto website and I've changed it a bit.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
