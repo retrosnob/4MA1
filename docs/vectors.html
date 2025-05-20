@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>4MA1</title>
+<title>Vectors – 4MA1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -154,7 +119,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -172,15 +137,30 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#vector-basics" id="toc-vector-basics" class="nav-link active" data-scroll-target="#vector-basics">Vector Basics</a>
+  <ul class="collapse">
+  <li><a href="#position-vectors" id="toc-position-vectors" class="nav-link" data-scroll-target="#position-vectors">Position vectors</a></li>
+  <li><a href="#column-vectors" id="toc-column-vectors" class="nav-link" data-scroll-target="#column-vectors">Column vectors</a></li>
+  <li><a href="#vectors-as-arrows" id="toc-vectors-as-arrows" class="nav-link" data-scroll-target="#vectors-as-arrows">Vectors as Arrows</a></li>
+  <li><a href="#vectors-that-are-not-position-vectors" id="toc-vectors-that-are-not-position-vectors" class="nav-link" data-scroll-target="#vectors-that-are-not-position-vectors">Vectors that are not position vectors</a></li>
+  <li><a href="#multiplying-a-vector-by-a-number-scalar-multiplication" id="toc-multiplying-a-vector-by-a-number-scalar-multiplication" class="nav-link" data-scroll-target="#multiplying-a-vector-by-a-number-scalar-multiplication">Multiplying a vector by a number (scalar multiplication)</a></li>
+  <li><a href="#vectors-without-x-and-y" id="toc-vectors-without-x-and-y" class="nav-link" data-scroll-target="#vectors-without-x-and-y">Vectors without x and y</a></li>
+  <li><a href="#exercise-vector-basics" id="toc-exercise-vector-basics" class="nav-link" data-scroll-target="#exercise-vector-basics">Exercise: Vector Basics</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">4MA1</h1>
+<h1 class="title">Vectors</h1>
 </div>
 
 
@@ -197,23 +177,68 @@ window.Quarto = {
 </header>
 
 
-<p>This is a Quarto website and I’ve changed it a bit.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div id="c4bcd01a" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>):</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(i)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>0
-1
-2
-3
-4</code></pre>
-</div>
-</div>
-<p>Save made. Another save. Another.</p>
-<p><span class="math display">\[\vec{OP} = \frac{2}{3}\mathbf{a} + 2\mathbf{b}\]</span></p>
+<section id="vector-basics" class="level1">
+<h1>Vector Basics</h1>
+<section id="position-vectors" class="level2">
+<h2 class="anchored" data-anchor-id="position-vectors">Position vectors</h2>
+<p>The <em>position vector</em> of a point shows how to get to that point <em>from the origin</em>.</p>
+<p><img src="img/vec points on a coord plane.png" class="img-fluid" alt="Points on a coordinate plane"> The <em>position vector</em> of point P is <span class="math inline">\(\begin{pmatrix}1 \\3\end{pmatrix}\)</span>. We write <span class="math inline">\(\vec{OP} = \begin{pmatrix}1 \\3\end{pmatrix}\)</span>. What is the position vector of Q?</p>
+</section>
+<section id="column-vectors" class="level2">
+<h2 class="anchored" data-anchor-id="column-vectors">Column vectors</h2>
+<p>Vectors written in the form <span class="math inline">\(\begin{pmatrix}x\\y\end{pmatrix}\)</span> are called column vectors.</p>
+</section>
+<section id="vectors-as-arrows" class="level2">
+<h2 class="anchored" data-anchor-id="vectors-as-arrows">Vectors as Arrows</h2>
+<p>You can think of a vector as an arrow. Like an arrow, a vector has <em>magnitude</em> (length) and <em>direction</em>.</p>
+<p>What is the magnitude of <span class="math inline">\(\vec{OQ}\)</span> in the diagram above?</p>
+</section>
+<section id="vectors-that-are-not-position-vectors" class="level2">
+<h2 class="anchored" data-anchor-id="vectors-that-are-not-position-vectors">Vectors that are not position vectors</h2>
+<p>How do you think you could write <span class="math inline">\(\vec{PQ}\)</span> in the form <span class="math inline">\(\begin{pmatrix}x\\y\end{pmatrix}\)</span>? Hint: How do you get from P to Q? How do you think you could write <span class="math inline">\(\vec{QP}\)</span> in the form <span class="math inline">\(\begin{pmatrix}x\\y\end{pmatrix}\)</span>? ## Adding vectors</p>
+<p>In general, you can add two vectors by adding their components:</p>
+<p><span class="math inline">\(\begin{pmatrix}x_1\\y_1\end{pmatrix} + \begin{pmatrix}x_2\\y_2\end{pmatrix} = \begin{pmatrix}x_1+x_2\\y_1+y_2\end{pmatrix}\)</span></p>
+<p>What is <span class="math inline">\(\vec{OP} + \vec{OQ}\)</span> in the form <span class="math inline">\(\begin{pmatrix}x\\y\end{pmatrix}\)</span>?</p>
+</section>
+<section id="multiplying-a-vector-by-a-number-scalar-multiplication" class="level2">
+<h2 class="anchored" data-anchor-id="multiplying-a-vector-by-a-number-scalar-multiplication">Multiplying a vector by a number (scalar multiplication)</h2>
+<p>In general, you can multiply a vector by a number by multiplying its components by that number:</p>
+<p><span class="math inline">\(k\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}kx\\ky\end{pmatrix}\)</span></p>
+</section>
+<section id="vectors-without-x-and-y" class="level2">
+<h2 class="anchored" data-anchor-id="vectors-without-x-and-y">Vectors without x and y</h2>
+<p>Usually in GCSE questions, we will not get an xy-coordinate plane to work with. Instead, we will be given <em>names</em> for some position vectors, and we will need to work out other vectors <em>in terms of</em> those vectors.</p>
+<p>![[Pasted image 20250519200836.png]]</p>
+<p>In the diagram:</p>
+<p><span class="math inline">\(\vec{OP} = \mathbf{a}\)</span> <span class="math inline">\(\vec{OR} = \mathbf{b}\)</span></p>
+<p>Given that OPRQ is a parallelogram, write down the following in terms of <strong>a</strong> and <strong>b</strong>:</p>
+<ol type="1">
+<li><span class="math inline">\(\vec{PR}\)</span></li>
+<li><span class="math inline">\(\vec{QR}\)</span></li>
+<li><span class="math inline">\(\vec{OR}\)</span></li>
+<li><span class="math inline">\(\vec{RP}\)</span></li>
+<li><span class="math inline">\(\vec{RQ}\)</span></li>
+<li><span class="math inline">\(\vec{PQ}\)</span></li>
+<li><span class="math inline">\(\vec{QP}\)</span></li>
+</ol>
+</section>
+<section id="exercise-vector-basics" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-vector-basics">Exercise: Vector Basics</h2>
+<p><strong>Question 1</strong></p>
+<p>![[Pasted image 20250519220302.png]] Draw the vector -2<strong>a</strong> on the grid.</p>
+<p><strong>Question 2</strong></p>
+<p>Given that</p>
+<p><span class="math inline">\(\vec{AB} = \begin{pmatrix}2 \\3\end{pmatrix}\)</span> and <span class="math inline">\(\vec{BC} = \begin{pmatrix}5 \\-2\end{pmatrix}\)</span></p>
+<p>Calculate <span class="math inline">\(\vec{CA}\)</span> as a column vector.</p>
+<p><strong>Question 3</strong></p>
+<p>Given that</p>
+<pre><code>$\vec{AC} = \begin{pmatrix}-21 \\15\end{pmatrix}$
+B is the point on AC such that AB:BC = 1:2</code></pre>
+<p>Calculate <span class="math inline">\(\vec{AB}\)</span> as a column vector.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
