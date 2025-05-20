@@ -21,24 +21,23 @@ Vectors written in the form $\begin{pmatrix}x\\y\end{pmatrix}$ are called **colu
 1. How about $\vec{QP}$?
 1. If the vector $\vec{AB}$ is $\begin{pmatrix}x\\y\end{pmatrix}$, then what is the vector $\vec{BA}$?
 
-## Column vectors
-
-Vectors written in the form $\begin{pmatrix}x\\y\end{pmatrix}$ are called column vectors.
-
 ## Vectors as Arrows
 
 You can think of a vector as an arrow. Like an arrow, a vector has *magnitude* (length) and *direction*. 
 
-What is the magnitude of $\vec{OQ}$ in the diagram above? 
+Note that in the following diagram, all the arrows represent the *same vector*, ie $\begin{pmatrix}4\\3\end{pmatrix}$.
 
-## Vectors that are not position vectors
+![Same arrow vectors](img/vec%20same%20arrow%20vectors.png)
 
-How do you think you could write $\vec{PQ}$ in the form $\begin{pmatrix}x\\y\end{pmatrix}$?
-Hint: How do you get from P to Q?
-How do you think you could write $\vec{QP}$ in the form $\begin{pmatrix}x\\y\end{pmatrix}$?
+**Check your understanding:**
+
+1. What is the magnitude of the vector in the diagram above?
+1. What is the magnitude of the vector $\begin{pmatrix}x\\y\end{pmatrix}$?
+1. In general, what technique do you use to find the magnitude of a vector?
+
 ## Adding vectors
 
-In general, you can add two vectors by adding their components:
+You can add two vectors by adding their components:
 
 $\begin{pmatrix}x_1\\y_1\end{pmatrix} + \begin{pmatrix}x_2\\y_2\end{pmatrix} = \begin{pmatrix}x_1+x_2\\y_1+y_2\end{pmatrix}$
 
@@ -46,7 +45,7 @@ What is $\vec{OP} + \vec{OQ}$ in the form $\begin{pmatrix}x\\y\end{pmatrix}$?
 
 ## Multiplying a vector by a number (scalar multiplication)
 
-In general, you can multiply a vector by a number by multiplying its components by that number:
+You can multiply a vector by a number by multiplying its components by that number:
 
 $k\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}kx\\ky\end{pmatrix}$
 
@@ -54,11 +53,12 @@ $k\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}kx\\ky\end{pmatrix}$
 
 Usually in GCSE questions, we will not get an xy-coordinate plane to work with. Instead, we will be given *names* for some position vectors, and we will need to work out other vectors *in terms of* those vectors. 
 
-![[Pasted image 20250519200836.png]]
+![Vector parallelogram](img/vec%20parallelogram%20of%20points.png)
 
 In the diagram:
 
 $\vec{OP} = \mathbf{a}$
+
 $\vec{OR} = \mathbf{b}$
 
 Given that OPRQ is a parallelogram, write down the following in terms of **a** and **b**:
@@ -75,7 +75,8 @@ Given that OPRQ is a parallelogram, write down the following in terms of **a** a
 
 **Question 1**
 
-![[Pasted image 20250519220302.png]]
+![Vector as an arrow question](img/vec%20as%20arrow%20question.png)
+
 Draw the vector -2**a** on the grid.
 
 **Question 2**
@@ -91,6 +92,7 @@ Calculate $\vec{CA}$ as a column vector.
 Given that
 
 	$\vec{AC} = \begin{pmatrix}-21 \\15\end{pmatrix}$
+	
 	B is the point on AC such that AB:BC = 1:2
 
 Calculate $\vec{AB}$ as a column vector.

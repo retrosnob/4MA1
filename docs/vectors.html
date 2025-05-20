@@ -159,9 +159,8 @@ window.Quarto = {
   <li><a href="#vector-basics" id="toc-vector-basics" class="nav-link active" data-scroll-target="#vector-basics">Vector Basics</a>
   <ul class="collapse">
   <li><a href="#vector-definitions" id="toc-vector-definitions" class="nav-link" data-scroll-target="#vector-definitions">Vector Definitions</a></li>
-  <li><a href="#column-vectors" id="toc-column-vectors" class="nav-link" data-scroll-target="#column-vectors">Column vectors</a></li>
   <li><a href="#vectors-as-arrows" id="toc-vectors-as-arrows" class="nav-link" data-scroll-target="#vectors-as-arrows">Vectors as Arrows</a></li>
-  <li><a href="#vectors-that-are-not-position-vectors" id="toc-vectors-that-are-not-position-vectors" class="nav-link" data-scroll-target="#vectors-that-are-not-position-vectors">Vectors that are not position vectors</a></li>
+  <li><a href="#adding-vectors" id="toc-adding-vectors" class="nav-link" data-scroll-target="#adding-vectors">Adding vectors</a></li>
   <li><a href="#multiplying-a-vector-by-a-number-scalar-multiplication" id="toc-multiplying-a-vector-by-a-number-scalar-multiplication" class="nav-link" data-scroll-target="#multiplying-a-vector-by-a-number-scalar-multiplication">Multiplying a vector by a number (scalar multiplication)</a></li>
   <li><a href="#vectors-without-x-and-y" id="toc-vectors-without-x-and-y" class="nav-link" data-scroll-target="#vectors-without-x-and-y">Vectors without x and y</a></li>
   <li><a href="#exercise-vector-basics" id="toc-exercise-vector-basics" class="nav-link" data-scroll-target="#exercise-vector-basics">Exercise: Vector Basics</a></li>
@@ -212,33 +211,46 @@ window.Quarto = {
 <li>If the vector <span class="math inline">\(\vec{AB}\)</span> is <span class="math inline">\(\begin{pmatrix}x\\y\end{pmatrix}\)</span>, then what is the vector <span class="math inline">\(\vec{BA}\)</span>?</li>
 </ol>
 </section>
-<section id="column-vectors" class="level2">
-<h2 class="anchored" data-anchor-id="column-vectors">Column vectors</h2>
-<p>Vectors written in the form <span class="math inline">\(\begin{pmatrix}x\\y\end{pmatrix}\)</span> are called column vectors.</p>
-</section>
 <section id="vectors-as-arrows" class="level2">
 <h2 class="anchored" data-anchor-id="vectors-as-arrows">Vectors as Arrows</h2>
 <p>You can think of a vector as an arrow. Like an arrow, a vector has <em>magnitude</em> (length) and <em>direction</em>.</p>
-<p>What is the magnitude of <span class="math inline">\(\vec{OQ}\)</span> in the diagram above?</p>
+<p>Note that in the following diagram, all the arrows represent the <em>same vector</em>, ie <span class="math inline">\(\begin{pmatrix}4\\3\end{pmatrix}\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/vec same arrow vectors.png" class="img-fluid figure-img"></p>
+<figcaption>Same arrow vectors</figcaption>
+</figure>
+</div>
+<p><strong>Check your understanding:</strong></p>
+<ol type="1">
+<li>What is the magnitude of the vector in the diagram above?</li>
+<li>What is the magnitude of the vector <span class="math inline">\(\begin{pmatrix}x\\y\end{pmatrix}\)</span>?</li>
+<li>In general, what technique do you use to find the magnitude of a vector?</li>
+</ol>
 </section>
-<section id="vectors-that-are-not-position-vectors" class="level2">
-<h2 class="anchored" data-anchor-id="vectors-that-are-not-position-vectors">Vectors that are not position vectors</h2>
-<p>How do you think you could write <span class="math inline">\(\vec{PQ}\)</span> in the form <span class="math inline">\(\begin{pmatrix}x\\y\end{pmatrix}\)</span>? Hint: How do you get from P to Q? How do you think you could write <span class="math inline">\(\vec{QP}\)</span> in the form <span class="math inline">\(\begin{pmatrix}x\\y\end{pmatrix}\)</span>? ## Adding vectors</p>
-<p>In general, you can add two vectors by adding their components:</p>
+<section id="adding-vectors" class="level2">
+<h2 class="anchored" data-anchor-id="adding-vectors">Adding vectors</h2>
+<p>You can add two vectors by adding their components:</p>
 <p><span class="math inline">\(\begin{pmatrix}x_1\\y_1\end{pmatrix} + \begin{pmatrix}x_2\\y_2\end{pmatrix} = \begin{pmatrix}x_1+x_2\\y_1+y_2\end{pmatrix}\)</span></p>
 <p>What is <span class="math inline">\(\vec{OP} + \vec{OQ}\)</span> in the form <span class="math inline">\(\begin{pmatrix}x\\y\end{pmatrix}\)</span>?</p>
 </section>
 <section id="multiplying-a-vector-by-a-number-scalar-multiplication" class="level2">
 <h2 class="anchored" data-anchor-id="multiplying-a-vector-by-a-number-scalar-multiplication">Multiplying a vector by a number (scalar multiplication)</h2>
-<p>In general, you can multiply a vector by a number by multiplying its components by that number:</p>
+<p>You can multiply a vector by a number by multiplying its components by that number:</p>
 <p><span class="math inline">\(k\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}kx\\ky\end{pmatrix}\)</span></p>
 </section>
 <section id="vectors-without-x-and-y" class="level2">
 <h2 class="anchored" data-anchor-id="vectors-without-x-and-y">Vectors without x and y</h2>
 <p>Usually in GCSE questions, we will not get an xy-coordinate plane to work with. Instead, we will be given <em>names</em> for some position vectors, and we will need to work out other vectors <em>in terms of</em> those vectors.</p>
-<p>![[Pasted image 20250519200836.png]]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/vec parallelogram of points.png" class="img-fluid figure-img"></p>
+<figcaption>Vector parallelogram</figcaption>
+</figure>
+</div>
 <p>In the diagram:</p>
-<p><span class="math inline">\(\vec{OP} = \mathbf{a}\)</span> <span class="math inline">\(\vec{OR} = \mathbf{b}\)</span></p>
+<p><span class="math inline">\(\vec{OP} = \mathbf{a}\)</span></p>
+<p><span class="math inline">\(\vec{OR} = \mathbf{b}\)</span></p>
 <p>Given that OPRQ is a parallelogram, write down the following in terms of <strong>a</strong> and <strong>b</strong>:</p>
 <ol type="1">
 <li><span class="math inline">\(\vec{PR}\)</span></li>
@@ -253,7 +265,13 @@ window.Quarto = {
 <section id="exercise-vector-basics" class="level2">
 <h2 class="anchored" data-anchor-id="exercise-vector-basics">Exercise: Vector Basics</h2>
 <p><strong>Question 1</strong></p>
-<p>![[Pasted image 20250519220302.png]] Draw the vector -2<strong>a</strong> on the grid.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/vec as arrow question.png" class="img-fluid figure-img"></p>
+<figcaption>Vector as an arrow question</figcaption>
+</figure>
+</div>
+<p>Draw the vector -2<strong>a</strong> on the grid.</p>
 <p><strong>Question 2</strong></p>
 <p>Given that</p>
 <p><span class="math inline">\(\vec{AB} = \begin{pmatrix}2 \\3\end{pmatrix}\)</span> and <span class="math inline">\(\vec{BC} = \begin{pmatrix}5 \\-2\end{pmatrix}\)</span></p>
@@ -261,6 +279,7 @@ window.Quarto = {
 <p><strong>Question 3</strong></p>
 <p>Given that</p>
 <pre><code>$\vec{AC} = \begin{pmatrix}-21 \\15\end{pmatrix}$
+
 B is the point on AC such that AB:BC = 1:2</code></pre>
 <p>Calculate <span class="math inline">\(\vec{AB}\)</span> as a column vector.</p>
 
