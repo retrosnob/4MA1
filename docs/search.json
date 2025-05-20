@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "4MA1",
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "Untitled",
     "section": "",
-    "text": "This is a Quarto website and I’ve changed it a bit.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nimport random\nprint(random.randint(0, 100))\n\n32\n\n\nSave made."
+    "text": "Does this auto-render?"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,12 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "4MA1",
+    "section": "",
+    "text": "This is a Quarto website and I’ve changed it a bit.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nimport random\nprint(random.randint(0, 100))\n\n55\n\n\nSave made.\n\\[\\vec{OP} = \\frac{2}{3}\\mathbf{a} + 2\\mathbf{b}\\]"
   }
 ]
