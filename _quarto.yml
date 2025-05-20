@@ -4,20 +4,13 @@ project:
 
 website:
   title: "4MA1"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
   sidebar:
     title: "Contents"
     style: docked
     pinned: true
     contents:
       - href: index.qmd
-        text: ""
-      - href: about.qmd
-        text: 
+        text: Home
       - href: vectors.qmd
         text: Vectors
 
