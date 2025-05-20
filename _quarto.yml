@@ -15,9 +15,9 @@ website:
     pinned: true
     contents:
       - href: index.qmd
-        text: Home
+        visibility: hidden
       - href: about.qmd
-        text: About
+        visibility: hidden
       - href: vectors.qmd
         text: Vectors
 
