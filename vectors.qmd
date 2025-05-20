@@ -41,7 +41,7 @@ You can add two vectors by adding their components:
 
 $\begin{pmatrix}x_1\\y_1\end{pmatrix} + \begin{pmatrix}x_2\\y_2\end{pmatrix} = \begin{pmatrix}x_1+x_2\\y_1+y_2\end{pmatrix}$
 
-What is $\vec{OP} + \vec{OQ}$ in the form $\begin{pmatrix}x\\y\end{pmatrix}$?
+With reference to the first diagram, what is $\vec{OP} + \vec{OQ}$ in the form $\begin{pmatrix}x\\y\end{pmatrix}$?
 
 ## Multiplying a vector by a number (scalar multiplication)
 
@@ -92,7 +92,18 @@ Calculate $\vec{CA}$ as a column vector.
 Given that
 
 	$\vec{AC} = \begin{pmatrix}-21 \\15\end{pmatrix}$
-	
+
 	B is the point on AC such that AB:BC = 1:2
 
 Calculate $\vec{AB}$ as a column vector.
+
+## More Advanced Vectors
+
+Combinations of vectors.
+
+Parameters to indicate a "certain amount of a vector".
+
+What it means to be parallel.
+
+What it means to be a "in a straight line".
+
