@@ -17,6 +17,8 @@ format:
       - brand
     css: styles.css
     toc: true
-
+    sidebar:
+      style: "floating"  # or "docked"
+      contents: auto
 
 
