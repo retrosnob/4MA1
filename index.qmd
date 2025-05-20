@@ -8,7 +8,7 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{python}
 import random
-print(random.randint(100))
+print(random.randint(0, 100))
 ```
 
-Save made.
+Save made. 
