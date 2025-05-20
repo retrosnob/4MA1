@@ -4,56 +4,88 @@
     "href": "vectors.html",
     "title": "Vectors",
     "section": "",
-    "text": "The position vector of a point shows how to get to that point from the origin.\n The position vector of point P is \\(\\begin{pmatrix}1 \\\\3\\end{pmatrix}\\). We write \\(\\vec{OP} = \\begin{pmatrix}1 \\\\3\\end{pmatrix}\\). What is the position vector of Q?\n\n\n\nVectors written in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\) are called column vectors.\n\n\n\nYou can think of a vector as an arrow. Like an arrow, a vector has magnitude (length) and direction.\nWhat is the magnitude of \\(\\vec{OQ}\\) in the diagram above?\n\n\n\nHow do you think you could write \\(\\vec{PQ}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)? Hint: How do you get from P to Q? How do you think you could write \\(\\vec{QP}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)? ## Adding vectors\nIn general, you can add two vectors by adding their components:\n\\(\\begin{pmatrix}x_1\\\\y_1\\end{pmatrix} + \\begin{pmatrix}x_2\\\\y_2\\end{pmatrix} = \\begin{pmatrix}x_1+x_2\\\\y_1+y_2\\end{pmatrix}\\)\nWhat is \\(\\vec{OP} + \\vec{OQ}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)?\n\n\n\nIn general, you can multiply a vector by a number by multiplying its components by that number:\n\\(k\\begin{pmatrix}x\\\\y\\end{pmatrix} = \\begin{pmatrix}kx\\\\ky\\end{pmatrix}\\)\n\n\n\nUsually in GCSE questions, we will not get an xy-coordinate plane to work with. Instead, we will be given names for some position vectors, and we will need to work out other vectors in terms of those vectors.\n![[Pasted image 20250519200836.png]]\nIn the diagram:\n\\(\\vec{OP} = \\mathbf{a}\\) \\(\\vec{OR} = \\mathbf{b}\\)\nGiven that OPRQ is a parallelogram, write down the following in terms of a and b:\n\n\\(\\vec{PR}\\)\n\\(\\vec{QR}\\)\n\\(\\vec{OR}\\)\n\\(\\vec{RP}\\)\n\\(\\vec{RQ}\\)\n\\(\\vec{PQ}\\)\n\\(\\vec{QP}\\)\n\n\n\n\nQuestion 1\n![[Pasted image 20250519220302.png]] Draw the vector -2a on the grid.\nQuestion 2\nGiven that\n\\(\\vec{AB} = \\begin{pmatrix}2 \\\\3\\end{pmatrix}\\) and \\(\\vec{BC} = \\begin{pmatrix}5 \\\\-2\\end{pmatrix}\\)\nCalculate \\(\\vec{CA}\\) as a column vector.\nQuestion 3\nGiven that\n$\\vec{AC} = \\begin{pmatrix}-21 \\\\15\\end{pmatrix}$\nB is the point on AC such that AB:BC = 1:2\nCalculate \\(\\vec{AB}\\) as a column vector."
+    "text": "The position vector of a point shows how to get to that point from the origin.\n The position vector of point P is \\(\\begin{pmatrix}1 \\\\3\\end{pmatrix}\\). We write \\(\\vec{OP} = \\begin{pmatrix}1 \\\\3\\end{pmatrix}\\). What is the position vector of Q?\n\n\n\nVectors written in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\) are called column vectors.\n\n\n\nYou can think of a vector as an arrow. Like an arrow, a vector has magnitude (length) and direction.\nWhat is the magnitude of \\(\\vec{OQ}\\) in the diagram above?\n\n\n\nHow do you think you could write \\(\\vec{PQ}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)? Hint: How do you get from P to Q? How do you think you could write \\(\\vec{QP}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)? ## Adding vectors\nIn general, you can add two vectors by adding their components:\n\\(\\begin{pmatrix}x_1\\\\y_1\\end{pmatrix} + \\begin{pmatrix}x_2\\\\y_2\\end{pmatrix} = \\begin{pmatrix}x_1+x_2\\\\y_1+y_2\\end{pmatrix}\\)\nWhat is \\(\\vec{OP} + \\vec{OQ}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)?\n\n\n\nIn general, you can multiply a vector by a number by multiplying its components by that number:\n\\(k\\begin{pmatrix}x\\\\y\\end{pmatrix} = \\begin{pmatrix}kx\\\\ky\\end{pmatrix}\\)\n\n\n\nUsually in GCSE questions, we will not get an xy-coordinate plane to work with. Instead, we will be given names for some position vectors, and we will need to work out other vectors in terms of those vectors.\n![[Pasted image 20250519200836.png]]\nIn the diagram:\n\\(\\vec{OP} = \\mathbf{a}\\) \\(\\vec{OR} = \\mathbf{b}\\)\nGiven that OPRQ is a parallelogram, write down the following in terms of a and b:\n\n\\(\\vec{PR}\\)\n\\(\\vec{QR}\\)\n\\(\\vec{OR}\\)\n\\(\\vec{RP}\\)\n\\(\\vec{RQ}\\)\n\\(\\vec{PQ}\\)\n\\(\\vec{QP}\\)\n\n\n\n\nQuestion 1\n![[Pasted image 20250519220302.png]] Draw the vector -2a on the grid.\nQuestion 2\nGiven that\n\\(\\vec{AB} = \\begin{pmatrix}2 \\\\3\\end{pmatrix}\\) and \\(\\vec{BC} = \\begin{pmatrix}5 \\\\-2\\end{pmatrix}\\)\nCalculate \\(\\vec{CA}\\) as a column vector.\nQuestion 3\nGiven that\n$\\vec{AC} = \\begin{pmatrix}-21 \\\\15\\end{pmatrix}$\nB is the point on AC such that AB:BC = 1:2\nCalculate \\(\\vec{AB}\\) as a column vector.",
+    "crumbs": [
+      "About",
+      "Vectors"
+    ]
   },
   {
     "objectID": "vectors.html#position-vectors",
     "href": "vectors.html#position-vectors",
     "title": "Vectors",
     "section": "",
-    "text": "The position vector of a point shows how to get to that point from the origin.\n The position vector of point P is \\(\\begin{pmatrix}1 \\\\3\\end{pmatrix}\\). We write \\(\\vec{OP} = \\begin{pmatrix}1 \\\\3\\end{pmatrix}\\). What is the position vector of Q?"
+    "text": "The position vector of a point shows how to get to that point from the origin.\n The position vector of point P is \\(\\begin{pmatrix}1 \\\\3\\end{pmatrix}\\). We write \\(\\vec{OP} = \\begin{pmatrix}1 \\\\3\\end{pmatrix}\\). What is the position vector of Q?",
+    "crumbs": [
+      "About",
+      "Vectors"
+    ]
   },
   {
     "objectID": "vectors.html#column-vectors",
     "href": "vectors.html#column-vectors",
     "title": "Vectors",
     "section": "",
-    "text": "Vectors written in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\) are called column vectors."
+    "text": "Vectors written in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\) are called column vectors.",
+    "crumbs": [
+      "About",
+      "Vectors"
+    ]
   },
   {
     "objectID": "vectors.html#vectors-as-arrows",
     "href": "vectors.html#vectors-as-arrows",
     "title": "Vectors",
     "section": "",
-    "text": "You can think of a vector as an arrow. Like an arrow, a vector has magnitude (length) and direction.\nWhat is the magnitude of \\(\\vec{OQ}\\) in the diagram above?"
+    "text": "You can think of a vector as an arrow. Like an arrow, a vector has magnitude (length) and direction.\nWhat is the magnitude of \\(\\vec{OQ}\\) in the diagram above?",
+    "crumbs": [
+      "About",
+      "Vectors"
+    ]
   },
   {
     "objectID": "vectors.html#vectors-that-are-not-position-vectors",
     "href": "vectors.html#vectors-that-are-not-position-vectors",
     "title": "Vectors",
     "section": "",
-    "text": "How do you think you could write \\(\\vec{PQ}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)? Hint: How do you get from P to Q? How do you think you could write \\(\\vec{QP}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)? ## Adding vectors\nIn general, you can add two vectors by adding their components:\n\\(\\begin{pmatrix}x_1\\\\y_1\\end{pmatrix} + \\begin{pmatrix}x_2\\\\y_2\\end{pmatrix} = \\begin{pmatrix}x_1+x_2\\\\y_1+y_2\\end{pmatrix}\\)\nWhat is \\(\\vec{OP} + \\vec{OQ}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)?"
+    "text": "How do you think you could write \\(\\vec{PQ}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)? Hint: How do you get from P to Q? How do you think you could write \\(\\vec{QP}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)? ## Adding vectors\nIn general, you can add two vectors by adding their components:\n\\(\\begin{pmatrix}x_1\\\\y_1\\end{pmatrix} + \\begin{pmatrix}x_2\\\\y_2\\end{pmatrix} = \\begin{pmatrix}x_1+x_2\\\\y_1+y_2\\end{pmatrix}\\)\nWhat is \\(\\vec{OP} + \\vec{OQ}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)?",
+    "crumbs": [
+      "About",
+      "Vectors"
+    ]
   },
   {
     "objectID": "vectors.html#multiplying-a-vector-by-a-number-scalar-multiplication",
     "href": "vectors.html#multiplying-a-vector-by-a-number-scalar-multiplication",
     "title": "Vectors",
     "section": "",
-    "text": "In general, you can multiply a vector by a number by multiplying its components by that number:\n\\(k\\begin{pmatrix}x\\\\y\\end{pmatrix} = \\begin{pmatrix}kx\\\\ky\\end{pmatrix}\\)"
+    "text": "In general, you can multiply a vector by a number by multiplying its components by that number:\n\\(k\\begin{pmatrix}x\\\\y\\end{pmatrix} = \\begin{pmatrix}kx\\\\ky\\end{pmatrix}\\)",
+    "crumbs": [
+      "About",
+      "Vectors"
+    ]
   },
   {
     "objectID": "vectors.html#vectors-without-x-and-y",
     "href": "vectors.html#vectors-without-x-and-y",
     "title": "Vectors",
     "section": "",
-    "text": "Usually in GCSE questions, we will not get an xy-coordinate plane to work with. Instead, we will be given names for some position vectors, and we will need to work out other vectors in terms of those vectors.\n![[Pasted image 20250519200836.png]]\nIn the diagram:\n\\(\\vec{OP} = \\mathbf{a}\\) \\(\\vec{OR} = \\mathbf{b}\\)\nGiven that OPRQ is a parallelogram, write down the following in terms of a and b:\n\n\\(\\vec{PR}\\)\n\\(\\vec{QR}\\)\n\\(\\vec{OR}\\)\n\\(\\vec{RP}\\)\n\\(\\vec{RQ}\\)\n\\(\\vec{PQ}\\)\n\\(\\vec{QP}\\)"
+    "text": "Usually in GCSE questions, we will not get an xy-coordinate plane to work with. Instead, we will be given names for some position vectors, and we will need to work out other vectors in terms of those vectors.\n![[Pasted image 20250519200836.png]]\nIn the diagram:\n\\(\\vec{OP} = \\mathbf{a}\\) \\(\\vec{OR} = \\mathbf{b}\\)\nGiven that OPRQ is a parallelogram, write down the following in terms of a and b:\n\n\\(\\vec{PR}\\)\n\\(\\vec{QR}\\)\n\\(\\vec{OR}\\)\n\\(\\vec{RP}\\)\n\\(\\vec{RQ}\\)\n\\(\\vec{PQ}\\)\n\\(\\vec{QP}\\)",
+    "crumbs": [
+      "About",
+      "Vectors"
+    ]
   },
   {
     "objectID": "vectors.html#exercise-vector-basics",
     "href": "vectors.html#exercise-vector-basics",
     "title": "Vectors",
     "section": "",
-    "text": "Question 1\n![[Pasted image 20250519220302.png]] Draw the vector -2a on the grid.\nQuestion 2\nGiven that\n\\(\\vec{AB} = \\begin{pmatrix}2 \\\\3\\end{pmatrix}\\) and \\(\\vec{BC} = \\begin{pmatrix}5 \\\\-2\\end{pmatrix}\\)\nCalculate \\(\\vec{CA}\\) as a column vector.\nQuestion 3\nGiven that\n$\\vec{AC} = \\begin{pmatrix}-21 \\\\15\\end{pmatrix}$\nB is the point on AC such that AB:BC = 1:2\nCalculate \\(\\vec{AB}\\) as a column vector."
+    "text": "Question 1\n![[Pasted image 20250519220302.png]] Draw the vector -2a on the grid.\nQuestion 2\nGiven that\n\\(\\vec{AB} = \\begin{pmatrix}2 \\\\3\\end{pmatrix}\\) and \\(\\vec{BC} = \\begin{pmatrix}5 \\\\-2\\end{pmatrix}\\)\nCalculate \\(\\vec{CA}\\) as a column vector.\nQuestion 3\nGiven that\n$\\vec{AC} = \\begin{pmatrix}-21 \\\\15\\end{pmatrix}$\nB is the point on AC such that AB:BC = 1:2\nCalculate \\(\\vec{AB}\\) as a column vector.",
+    "crumbs": [
+      "About",
+      "Vectors"
+    ]
   },
   {
     "objectID": "index.html",
@@ -67,13 +99,20 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site",
+    "crumbs": [
+      "About"
+    ]
   },
   {
     "objectID": "test.html",
     "href": "test.html",
     "title": "Untitled",
     "section": "",
-    "text": "Does this auto-render? No."
+    "text": "Does this auto-render? No.",
+    "crumbs": [
+      "About",
+      "Untitled"
+    ]
   }
 ]
