@@ -11,9 +11,11 @@ website:
       - about.qmd
   sidebar:
     style: docked
-    contents: auto
-    title: "Contents"
     pinned: true
+    title: "Contents"
+    contents:
+      - index.qmd
+      - about.qmd
 
 format:
   html:
