@@ -4,7 +4,7 @@
     "href": "test.html",
     "title": "Untitled",
     "section": "",
-    "text": "Does this auto-render?"
+    "text": "Does this auto-render? No."
   },
   {
     "objectID": "about.html",
@@ -18,6 +18,6 @@
     "href": "index.html",
     "title": "4MA1",
     "section": "",
-    "text": "This is a Quarto website and I’ve changed it a bit.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nimport random\nprint(random.randint(0, 100))\n\n55\n\n\nSave made.\n\\[\\vec{OP} = \\frac{2}{3}\\mathbf{a} + 2\\mathbf{b}\\]"
+    "text": "This is a Quarto website and I’ve changed it a bit.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nfor i in range(5):\n    print(i)\n\n0\n1\n2\n3\n4\n\n\nSave made. Another save. Another.\n\\[\\vec{OP} = \\frac{2}{3}\\mathbf{a} + 2\\mathbf{b}\\]"
   }
 ]
