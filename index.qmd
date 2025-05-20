@@ -12,3 +12,5 @@ print(random.randint(0, 100))
 ```
 
 Save made.  
+
+$$\vec{OP} = \frac{2}{3}\mathbf{a} + 2\mathbf{b}$$
