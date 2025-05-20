@@ -14,14 +14,12 @@ website:
     style: docked
     pinned: true
     contents:
-      - href: index.qmd
-        visibility: hidden
-      - href: about.qmd
-        visibility: hidden
+      # - href: index.qmd
+      #   visibility: hidden
+      # - href: about.qmd
+      #   visibility: hidden
       - href: vectors.qmd
         text: Vectors
-
-
 
 format:
   html:
