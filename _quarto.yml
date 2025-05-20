@@ -9,6 +9,12 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+  sidebar:
+    style: docked      # or "floating"
+    contents: auto     # auto-generates from headers
+    title: "Contents"
+    pinned: true       # keeps sidebar always visible
+
 
 format:
   html:
@@ -17,8 +23,5 @@ format:
       - brand
     css: styles.css
     toc: true
-    sidebar:
-      style: "floating"  # or "docked"
-      contents: auto
 
 
