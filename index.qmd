@@ -1,16 +1,7 @@
 ---
 title: "4MA1"
+format: html
+toc: true
 ---
 
-This is a Quarto website and I've changed it a bit.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{python}
-for i in range(5):
-    print(i)
-```
-
-Save made. Another save. Another.
-
-$$\vec{OP} = \frac{2}{3}\mathbf{a} + 2\mathbf{b}$$
+Use the sidebar to choose a topic.

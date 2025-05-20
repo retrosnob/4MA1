@@ -10,12 +10,14 @@ website:
         text: Home
       - about.qmd
   sidebar:
+    title: "Contents"
     style: docked
     pinned: true
-    title: "Contents"
     contents:
-      - index.qmd
-      - about.qmd
+      - href: vectors.qmd
+        text: Vectors
+
+
 
 format:
   html:
