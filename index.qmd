@@ -116,7 +116,7 @@ Students should be taught to:
 
 - Solve percentage problems including increase and decrease
 - Use reverse percentages:
-  "An item costs $\pounds 17.50$ after a 30% reduction. What was the original price?"
+  e.g. An item costs $\pounds 17.50$ after a 30% reduction. What was the original price?
 - Use compound interest and depreciation (Higher Tier)
 - Use repeated percentage change (Higher Tier)
 
