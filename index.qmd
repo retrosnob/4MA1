@@ -162,13 +162,13 @@ Students should be taught to:
 - Understand that symbols may represent numbers or variables in expressions, equations, or formulae
 - Understand that algebraic expressions follow the generalised rules of arithmetic
 - Use index notation for positive, negative, and zero integer powers:
-  \[
+  $$
   a^3 = a \times a \times a, \quad a^0 = 1, \quad a^{-1} = \frac{1}{a}
-  \]
+  $$
 - Use index laws:
-  \[
+  $$
   x^m \times x^n = x^{m+n}, \quad \frac{x^m}{x^n} = x^{m-n}, \quad (x^m)^n = x^{mn}
-  \]
+  $$
 
 ---
 
@@ -179,34 +179,34 @@ Students should be taught to:
 - Evaluate expressions by substituting values into variables
 - Collect like terms
 - Multiply a single term over a bracket:
-  \[
+  $$
   3(x + 5) = 3x + 15
-  \]
+  $$
 - Factorise simple expressions by taking out common factors:
-  \[
+  $$
   28xy + 12y = 4y(7x + 3)
-  \]
+  $$
 - Expand the product of two linear expressions:
-  \[
+  $$
   (x + 4)(x - 2) = x^2 + 2x - 8
-  \]
+  $$
 - Understand and factorise quadratic expressions of the form:
-  \[
+  $$
   x^2 + bx + c
-  \]
+  $$
 - (Higher Tier) Expand the product of three linear expressions:
-  \[
+  $$
   (x + 2)(x - 1)(x + 3)
-  \]
+  $$
 - (Higher Tier) Factorise complex quadratics (e.g. \( 6x^2 - 5x - 6 \))
 - (Higher Tier) Manipulate algebraic fractions and simplify:
-  \[
+  $$
   \frac{3}{x-2} + \frac{1}{x+1}
-  \]
+  $$
 - (Higher Tier) Complete the square:
-  \[
+  $$
   x^2 + 6x - 1 = (x + 3)^2 - 10
-  \]
+  $$
 - (Higher Tier) Use algebra to construct and support proofs
 
 ---
@@ -221,9 +221,9 @@ Students should be taught to:
 - Use and construct formulae from contexts (e.g. area, physics)
 - Derive a formula from a description or diagram
 - Change the subject of a formula (where the subject appears once):
-  \[
+  $$
   A = \pi r^2 \Rightarrow r = \sqrt{\frac{A}{\pi}}, \quad v = u + at \Rightarrow t = \frac{v - u}{a}
-  \]
+  $$
 - (Higher Tier) Rearrange more complex formulae, including those where the subject appears more than once or appears as a power
 
 ---
@@ -233,27 +233,27 @@ Students should be taught to:
 Students should be taught to:
 
 - Solve linear equations with the unknown on one or both sides:
-  \[
+  $$
   5x + 8 = 12, \quad 7(x - 3) = 5x - 8
-  \]
+  $$
 - Solve linear equations with fractional coefficients:
-  \[
+  $$
   \frac{4x + 5}{2} = 3
-  \]
+  $$
 - Set up and solve simple linear equations from word problems:
   E.g. Angles in a triangle add to 180°:
-  \[
+  $$
   a + (a + 10) + (a + 20) = 180
-  \]
+  $$
 
 ---
 
 ## 2.5 Proportion
 
 - (Higher Tier) Set up equations from proportional relationships:
-  \[
+  $$
   y \propto x^2 \Rightarrow y = kx^2
-  \]
+  $$
 
 ---
 
@@ -262,13 +262,13 @@ Students should be taught to:
 Students should be taught to:
 
 - Solve a pair of simultaneous linear equations algebraically (elimination or substitution)
-  \[
+  $$
   2x + 3y = 17, \quad 3x - 5y = 35
-  \]
+  $$
 - (Higher Tier) Solve simultaneous equations involving one linear and one quadratic equation:
-  \[
+  $$
   y = 2x - 11, \quad x^2 + y^2 = 25
-  \]
+  $$
 - (Higher Tier) Interpret simultaneous equations graphically as points of intersection
 
 ---
@@ -278,13 +278,13 @@ Students should be taught to:
 Students should be taught to:
 
 - Solve quadratic equations by factorising:
-  \[
+  $$
   x^2 + x - 30 = 0 \Rightarrow (x + 6)(x - 5) = 0
-  \]
+  $$
 - (Higher Tier) Solve quadratics using the quadratic formula:
-  \[
+  $$
   x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-  \]
+  $$
 - (Higher Tier) Solve quadratics by completing the square
 - (Higher Tier) Form and solve quadratics from contexts
 - (Higher Tier) Solve a quadratic and linear system of equations
@@ -297,26 +297,26 @@ Students should be taught to:
 
 - Use inequality symbols: \( >, <, \geq, \leq \)
 - Represent linear inequalities on a number line:
-  \[
+  $$
   1 < x \leq 5
-  \]
+  $$
 - Solve inequalities such as:
-  \[
+  $$
   3x - 2 < 10 \Rightarrow x < 4, \quad 7 - x \leq 5 \Rightarrow x \geq 2
-  \]
+  $$
 - Solve compound inequalities:
-  \[
+  $$
   3 < x + 2 \leq 5 \Rightarrow 1 < x \leq 3
-  \]
+  $$
 - Represent linear inequalities in two variables on Cartesian graphs:
   Shade regions defined by:
-  \[
+  $$
   x \geq 0, \quad y \geq 1, \quad x + y \leq 5
-  \]
+  $$
 - (Higher Tier) Solve and represent quadratic inequalities on number lines:
-  \[
+  $$
   x^2 - 4 < 0 \Rightarrow -2 < x < 2
-  \]
+  $$
 - (Higher Tier) Identify regions defined by multiple inequalities on graphs
 
 # Edexcel IGCSE Mathematics A (4MA1) — Topic 3: Sequences, Functions and Graphs
@@ -336,9 +336,9 @@ Students should be taught to:
   - Odd and even numbers
   - Squares, multiples and powers
 - Use linear expressions to describe the nth term of an arithmetic sequence:
-  \[
+  $$
   2, 5, 8, 11, \ldots \quad \text{has } nth \text{ term } = 3n - 1
-  \]
+  $$
 - Recognise and use:
   - Arithmetic sequences
   - Geometric sequences (Higher Tier)
@@ -347,9 +347,9 @@ Students should be taught to:
   - First term \( a \)
   - Common difference \( d \) in arithmetic sequences
 - Find the sum of the first \( n \) terms of an arithmetic series (Higher Tier):
-  \[
+  $$
   S_n = \frac{n}{2} \left(2a + (n - 1)d\right)
-  \]
+  $$
 
 ---
 
@@ -359,9 +359,9 @@ Students should be taught to:
 
 - Understand the concept of a function as a mapping between two sets
 - Use function notation:
-  \[
+  $$
   f(x) = 3x + 1, \quad f: x \mapsto 3x + 1
-  \]
+  $$
 - Understand domain and range
 - Identify values to exclude from the domain (e.g. for \( f(x) = \frac{1}{x} \), \( x \neq 0 \))
 - Find composite functions \( fg(x) \)
@@ -380,14 +380,14 @@ Students should be taught to:
 - Plot points \( (x, y) \) and locate them on the plane
 - Determine coordinates of points from geometric descriptions
 - Find the midpoint of a line segment:
-  \[
+  $$
   \text{Midpoint of } (x_1, y_1) \text{ and } (x_2, y_2) = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)
-  \]
+  $$
 - Draw and interpret conversion graphs, including currency conversions
 - Calculate the gradient of a straight line:
-  \[
+  $$
   m = \frac{\text{change in } y}{\text{change in } x}
-  \]
+  $$
 - Understand equations of straight lines in the form \( y = mx + c \), where:
   - \( m \) is the gradient
   - \( c \) is the y-intercept
@@ -407,9 +407,9 @@ Students should be taught to:
 - (Higher Tier) Find the intersection of two graphs (linear and non-linear):
   Solve \( f(x) = g(x) \) graphically or algebraically
 - (Higher Tier) Apply transformations to graphs of functions:
-  \[
+  $$
   y = f(x) + a, \quad y = f(x + a), \quad y = af(x), \quad y = f(ax)
-  \]
+  $$
 
 ---
 
@@ -419,9 +419,9 @@ Students should be taught to:
 
 - Understand the concept of a variable rate of change
 - Differentiate simple functions:
-  \[
+  $$
   \frac{d}{dx}x^n = nx^{n-1}
-  \]
+  $$
 - Use differentiation to:
   - Find gradients of curves
   - Calculate instantaneous rates of change
@@ -466,13 +466,13 @@ Students should be taught to:
 - Name and recognise common polygons:
   - Triangle, quadrilateral, pentagon, hexagon, octagon, etc.
 - Understand and use the angle sum of polygons:
-  \[
+  $$
   \text{Sum of interior angles} = (n - 2) \times 180^\circ
-  \]
+  $$
 - Calculate interior and exterior angles of regular polygons:
-  \[
+  $$
   \text{Exterior angle} = \frac{360^\circ}{n}, \quad \text{Interior angle} = 180^\circ - \text{Exterior angle}
-  \]
+  $$
 - Use properties of quadrilaterals:
   - Parallelogram, rectangle, rhombus, trapezium, kite, square
 - Understand congruence: same shape and size
@@ -497,9 +497,9 @@ Students should be taught to:
 - Use three-figure bearings
 - Measure angles to the nearest degree
 - Use the formula:
-  \[
+  $$
   \text{Speed} = \frac{\text{Distance}}{\text{Time}}
-  \]
+  $$
 - Use compound measures (Higher Tier):
   - Density = mass/volume
   - Pressure = force/area
@@ -549,23 +549,23 @@ Students should be taught to:
 Students should be taught to:
 
 - Use Pythagoras’ Theorem in 2D:
-  \[
+  $$
   a^2 + b^2 = c^2
-  \]
+  $$
 - Use trigonometric ratios in right-angled triangles:
-  \[
+  $$
   \sin \theta = \frac{\text{opposite}}{\text{hypotenuse}}, \quad \cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}}, \quad \tan \theta = \frac{\text{opposite}}{\text{adjacent}}
-  \]
+  $$
 - (Higher Tier) Use sine, cosine and tangent for obtuse angles
 - Solve problems involving angles of elevation and depression
 - (Higher Tier) Use sine and cosine rules:
-  \[
+  $$
   \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}, \quad a^2 = b^2 + c^2 - 2bc\cos A
-  \]
+  $$
 - (Higher Tier) Use:
-  \[
+  $$
   \text{Area of triangle} = \frac{1}{2} ab \sin C
-  \]
+  $$
 - (Higher Tier) Use trigonometry and Pythagoras’ Theorem in 3D
 - (Higher Tier) Find the angle between a line and a plane
 
@@ -579,12 +579,12 @@ Students should be taught to:
 - Calculate perimeters and areas of:
   - Rectangles, triangles, parallelograms, trapezia, circles, semicircles
 - Calculate:
-  \[
+  $$
   \text{Area of trapezium} = \frac{1}{2}(a + b)h
-  \]
-  \[
+  $$
+  $$
   \text{Area of circle} = \pi r^2, \quad \text{Circumference} = 2\pi r
-  \]
+  $$
 - Calculate volumes and surface areas of:
   - Cubes, cuboids, prisms, cylinders
 - (Higher Tier) Calculate volume and surface area of:
@@ -625,13 +625,13 @@ Students should be taught to:
 - Perform operations with vectors:
   - Add and subtract vectors
   - Multiply vectors by scalar quantities:
-    \[
+    $$
     3 \begin{bmatrix} 2 \\ -1 \end{bmatrix} = \begin{bmatrix} 6 \\ -3 \end{bmatrix}
-    \]
+    $$
 - Calculate the **magnitude** (modulus) of a vector:
-  \[
+  $$
   \left| \begin{bmatrix} x \\ y \end{bmatrix} \right| = \sqrt{x^2 + y^2}
-  \]
+  $$
 - Use vectors to represent geometric information and solve problems
 - Use vector methods for **geometrical proofs** (e.g. show points are collinear, midpoints, parallel vectors)
 
@@ -647,9 +647,9 @@ Students should be taught to:
   - **Rotation**: specified by centre, angle and direction
   - **Enlargement**: with centre and scale factor (including fractional and negative)
 - Use column vectors to describe translations:
-  \[
+  $$
   \begin{bmatrix} 3 \\ -2 \end{bmatrix}
-  \]
+  $$
 - Construct mirror lines and reflect shapes across them
 - Understand that translations, rotations, and reflections preserve:
   - **Length**
@@ -720,9 +720,9 @@ Students should be taught to:
   - Event, outcome, sample space, likely, certain, impossible
 - Use a **probability scale** from 0 to 1
 - Know that:
-  \[
+  $$
   P(\text{event}) = \frac{\text{number of favourable outcomes}}{\text{total number of possible outcomes}}
-  \]
+  $$
 - List all outcomes for one or two events using:
   - Tables
   - Lists
@@ -730,13 +730,13 @@ Students should be taught to:
 - Calculate probabilities of:
   - Single events
   - **Mutually exclusive** events:
-    \[
+    $$
     P(A \text{ or } B) = P(A) + P(B)
-    \]
+    $$
   - **Complementary** events:
-    \[
+    $$
     P(A') = 1 - P(A)
-    \]
+    $$
 - Estimate probabilities using relative frequency from experimental data
 - Use Venn diagrams to:
   - Represent sets and events
@@ -746,6 +746,6 @@ Students should be taught to:
 - (Higher Tier) Understand and calculate **conditional probability**:
   - E.g. choosing two objects **without replacement**
 - Calculate **expected frequency**:
-  \[
+  $$
   \text{Expected frequency} = \text{Probability} \times \text{Number of trials}
-  \]
+  $$
