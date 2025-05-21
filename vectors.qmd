@@ -19,7 +19,7 @@ Vectors written in the form$\begin{pmatrix}x\\y\end{pmatrix}$are called **column
 1. What is the position vector of Q written as a column vector?
 1. What is the vector $\vec{PQ}$ as a column vector?
 1. How about $\vec{QP}$?
-1. If the vector $\vec{AB}$is$\begin{pmatrix}x\\y\end{pmatrix}$, then what is the vector $\vec{BA}$?
+1. If the vector $\vec{AB}$ is $\begin{pmatrix}x\\y\end{pmatrix}$, then what is the vector $\vec{BA}$?
 
 ## Vectors as Arrows
 
@@ -41,7 +41,7 @@ You can add two vectors by adding their components:
 
 $\begin{pmatrix}x_1\\y_1\end{pmatrix} + \begin{pmatrix}x_2\\y_2\end{pmatrix} = \begin{pmatrix}x_1+x_2\\y_1+y_2\end{pmatrix}$
 
-With reference to the first diagram, what is$\vec{OP} + \vec{OQ}$in the form$\begin{pmatrix}x\\y\end{pmatrix}$?
+With reference to the first diagram, what is $\vec{OP} + \vec{OQ}$in the form$\begin{pmatrix}x\\y\end{pmatrix}$?
 
 ## Multiplying a vector by a number (scalar multiplication)
 
