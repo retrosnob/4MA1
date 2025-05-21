@@ -28,7 +28,9 @@ Students should be taught to:
 Students should be taught to:
 
 - Understand and use equivalent fractions, simplifying a fraction by cancelling common factors:
-  $ \frac{8}{60} = \frac{2}{15} $- Understand and use mixed numbers and vulgar fractions
+  $ \frac{8}{60} = \frac{2}{15} $
+
+- Understand and use mixed numbers and vulgar fractions
 
 - Identify common denominators
 
@@ -85,11 +87,13 @@ Students should be taught to:
 
 - Understand the definition of a set
 - Use the set notation:
-  $ \cup, \cap, \in, \notin, \subset, \emptyset, E $- Understand the universal set and the empty set
+  $ \cup, \cap, \in, \notin, \subset, \emptyset, E $
+- Understand the universal set and the empty set
 - Understand and use the complement of a set:
-  $ A' \text{ or } \overline{A} $- Use Venn diagrams to represent sets
+  $ A' \text{ or } \overline{A} $
+- Use Venn diagrams to represent sets
 - Understand and use sets defined in algebraic terms (Higher Tier)
-- Use notation \( n(A) \) for the number of elements in set \( A \) (Higher Tier)
+- Use notation $ n(A) $ for the number of elements in set $ A $ (Higher Tier)
 - Use sets in practical contexts (Higher Tier)
 
 ---
@@ -102,9 +106,10 @@ Students should be taught to:
 - Express a number as a percentage of another
 - Express percentages as fractions and decimals
 - Understand percentages as operators:
-  $ \text{15\% of 120} = \frac{15}{100} \times 120 = 18 $- Solve percentage problems including increase and decrease
+  $ \text{15\% of 120} = \frac{15}{100} \times 120 = 18 $
+- Solve percentage problems including increase and decrease
 - Use reverse percentages:
-  “An item costs \( \pounds 17.50 \) after a 30\% reduction. What was the original price?”
+  “An item costs $ \pounds 17.50 $ after a 30\% reduction. What was the original price?”
 - Use compound interest and depreciation (Higher Tier)
 - Use repeated percentage change (Higher Tier)
 
@@ -140,7 +145,8 @@ Students should be taught to:
 Students should be taught to:
 
 - Understand and use standard form:
-  $ a \times 10^n \quad \text{where } 1 \leq a < 10, \; n \in \mathbb{Z} $- Convert numbers to and from standard form
+  $ a \times 10^n \quad \text{where } 1 \leq a < 10, \; n \in \mathbb{Z} $
+- Convert numbers to and from standard form
 - Perform calculations with numbers in standard form
 
 ---
@@ -210,7 +216,7 @@ Students should be taught to:
   $$
   (x + 2)(x - 1)(x + 3)
   $$
-- (Higher Tier) Factorise complex quadratics (e.g. \( 6x^2 - 5x - 6 \))
+- (Higher Tier) Factorise complex quadratics (e.g. $ 6x^2 - 5x - 6 $)
 - (Higher Tier) Manipulate algebraic fractions and simplify:
   $$
   \frac{3}{x-2} + \frac{1}{x+1}
@@ -307,7 +313,7 @@ Students should be taught to:
 
 Students should be taught to:
 
-- Use inequality symbols: \( >, <, \geq, \leq \)
+- Use inequality symbols: $ >, <, \geq, \leq $
 - Represent linear inequalities on a number line:
   $$
   1 < x \leq 5
@@ -356,9 +362,9 @@ Students should be taught to:
   - Geometric sequences (Higher Tier)
   - Quadratic sequences (Higher Tier)
 - Know and use:
-  - First term \( a \)
-  - Common difference \( d \) in arithmetic sequences
-- Find the sum of the first \( n \) terms of an arithmetic series (Higher Tier):
+  - First term $ a $
+  - Common difference $ d $ in arithmetic sequences
+- Find the sum of the first $ n $ terms of an arithmetic series (Higher Tier):
   $$
   S_n = \frac{n}{2} \left(2a + (n - 1)d\right)
   $$
@@ -375,9 +381,9 @@ Students should be taught to:
   f(x) = 3x + 1, \quad f: x \mapsto 3x + 1
   $$
 - Understand domain and range
-- Identify values to exclude from the domain (e.g. for \( f(x) = \frac{1}{x} \), \( x \neq 0 \))
-- Find composite functions \( fg(x) \)
-- Find inverse functions \( f^{-1}(x) \)
+- Identify values to exclude from the domain (e.g. for $ f(x) = \frac{1}{x} $, $ x \neq 0 $)
+- Find composite functions $ fg(x) $
+- Find inverse functions $ f^{-1}(x) $
 
 ---
 
@@ -389,7 +395,7 @@ Students should be taught to:
   - Distance-time graphs
   - Speed-time graphs
 - Use Cartesian coordinates in all four quadrants
-- Plot points \( (x, y) \) and locate them on the plane
+- Plot points $ (x, y) $ and locate them on the plane
 - Determine coordinates of points from geometric descriptions
 - Find the midpoint of a line segment:
   $$
@@ -400,24 +406,24 @@ Students should be taught to:
   $$
   m = \frac{\text{change in } y}{\text{change in } x}
   $$
-- Understand equations of straight lines in the form \( y = mx + c \), where:
-  - \( m \) is the gradient
-  - \( c \) is the y-intercept
+- Understand equations of straight lines in the form $ y = mx + c $, where:
+  - $ m $ is the gradient
+  - $ c $ is the y-intercept
 - Write the equation of a straight line from its graph
 - Recognise and plot graphs of:
-  - Linear functions \( y = mx + c \)
-  - Vertical and horizontal lines \( x = a, y = b \)
-  - Quadratic functions \( y = ax^2 + bx + c \)
+  - Linear functions $ y = mx + c $
+  - Vertical and horizontal lines $ x = a, y = b $
+  - Quadratic functions $ y = ax^2 + bx + c $
   - Simple cubic and reciprocal functions (Higher Tier)
 - Complete tables of values for functions
 - Identify and draw:
   - Parallel lines (same gradient)
   - Perpendicular lines (negative reciprocal gradients)
 - (Higher Tier) Plot and interpret:
-  - Cubic functions: \( y = x^3 \)
-  - Reciprocal functions: \( y = \frac{1}{x} \)
+  - Cubic functions: $ y = x^3 $
+  - Reciprocal functions: $ y = \frac{1}{x} $
 - (Higher Tier) Find the intersection of two graphs (linear and non-linear):
-  Solve \( f(x) = g(x) \) graphically or algebraically
+  Solve $ f(x) = g(x) $ graphically or algebraically
 - (Higher Tier) Apply transformations to graphs of functions:
   $$
   y = f(x) + a, \quad y = f(x + a), \quad y = af(x), \quad y = f(ax)
@@ -440,7 +446,7 @@ Students should be taught to:
   - Find and classify stationary points
 - Identify maxima and minima from graphs
 - Apply calculus to:
-  - Simple kinematics (e.g. \( s(t) \rightarrow v(t) \rightarrow a(t) \))
+  - Simple kinematics (e.g. $ s(t) \rightarrow v(t) \rightarrow a(t) $)
   - Practical problems involving rate of change
 
 # Edexcel IGCSE Mathematics A (4MA1) — Topic 4: Geometry and Trigonometry
@@ -455,16 +461,16 @@ Students should be taught to:
 
 - Distinguish between acute, obtuse, reflex and right angles
 - Use angle facts:
-  - Angles on a straight line sum to \(180^\circ\)
-  - Angles at a point sum to \(360^\circ\)
+  - Angles on a straight line sum to $180^\circ$
+  - Angles at a point sum to $360^\circ$
   - Vertically opposite angles are equal
 - Use properties of angles with parallel lines:
   - Alternate angles are equal
   - Corresponding angles are equal
-  - Allied (co-interior) angles sum to \(180^\circ\)
+  - Allied (co-interior) angles sum to $180^\circ$
 - Understand the exterior angle and angle sum properties of triangles:
   - The exterior angle equals the sum of the opposite interior angles
-  - The angles in a triangle sum to \(180^\circ\)
+  - The angles in a triangle sum to $180^\circ$
 - Use properties of:
   - Equilateral, isosceles, and right-angled triangles
   - Congruent triangles
@@ -601,7 +607,7 @@ Students should be taught to:
   - Cubes, cuboids, prisms, cylinders
 - (Higher Tier) Calculate volume and surface area of:
   - Spheres, cones, pyramids
-  - \( V = \frac{4}{3} \pi r^3, \quad V = \frac{1}{3} \pi r^2 h \)
+  - $ V = \frac{4}{3} \pi r^3, \quad V = \frac{1}{3} \pi r^2 h $
 - Convert between cm³, m³ and litres
 
 ---
@@ -632,8 +638,8 @@ Students should be taught to:
 
 - Understand that a vector has both **magnitude** and **direction**
 - Use vector notation, including:
-  - Column vectors: \( \begin{bmatrix} x \\ y \end{bmatrix} \)
-  - Directed line segments: \( \vec{AB} \) or \( \overrightarrow{AB} \)
+  - Column vectors: $ \begin{bmatrix} x \\ y \end{bmatrix} $
+  - Directed line segments: $ \vec{AB} $ or $ \overrightarrow{AB} $
 - Perform operations with vectors:
   - Add and subtract vectors
   - Multiply vectors by scalar quantities:
@@ -655,7 +661,7 @@ Students should be taught to:
 
 - Understand and perform the four transformations:
   - **Translation**: described using a vector
-  - **Reflection**: in a given line (e.g. \( y = x,\; x = -1 \))
+  - **Reflection**: in a given line (e.g. $ y = x,\; x = -1 $)
   - **Rotation**: specified by centre, angle and direction
   - **Enlargement**: with centre and scale factor (including fractional and negative)
 - Use column vectors to describe translations:
