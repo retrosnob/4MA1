@@ -7,9 +7,9 @@ title: "Scheme of Work"
 <table>
   <thead>
     <tr>
-      <th style="width:10%">Topic Code</th>
-      <th style="width:10%">Duration</th>
-      <th style="width:80%">Content</th>
+      <th style="width:10%; vertical-align: top;">Topic Code</th>
+      <th style="width:10%; vertical-align: top;">Duration</th>
+      <th style="width:80%; vertical-align: top;">Content</th>
     </tr>
   </thead>
   <tbody>
