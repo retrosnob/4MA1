@@ -136,7 +136,7 @@ What does your answer tell you about the position of point S?
 :::{.callout-tip collapse="true"}
 **Hint**
 
-We can see that $\vec{OS} = \vec{OP} +$\vec{PS}$ so we just need to find 
+We can see that $\vec{OS} = \vec{OP} + $\vec{PS}$ so we just need to find 
 :::
 
 
