@@ -23,5 +23,3 @@ format:
       - brand
     css: styles.css
     toc: true
-    # markdown:
-    #   extensions: [raw_html]
