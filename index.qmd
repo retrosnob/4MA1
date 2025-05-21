@@ -92,9 +92,11 @@ Students should be taught to:
 - Understand the definition of a set
 - Use the set notation:
   $$ \cup, \cap, \in, \notin, \subset, \emptyset, E $$
+
 - Understand the universal set and the empty set
 - Understand and use the complement of a set:
   $$ A' \text{ or } \overline{A} $$
+
 - Use Venn diagrams to represent sets
 - Understand and use sets defined in algebraic terms (Higher Tier)
 - Use notation $ n(A) $ for the number of elements in set $ A $ (Higher Tier)
@@ -111,6 +113,7 @@ Students should be taught to:
 - Express percentages as fractions and decimals
 - Understand percentages as operators:
   $$ \text{15\% of 120} = \frac{15}{100} \times 120 = 18 $$
+
 - Solve percentage problems including increase and decrease
 - Use reverse percentages:
   “An item costs $ \pounds 17.50 $ after a 30\% reduction. What was the original price?”
@@ -150,6 +153,7 @@ Students should be taught to:
 
 - Understand and use standard form:
   $$ a \times 10^n \quad \text{where } 1 \leq a < 10, \; n \in \mathbb{Z} $$
+
 - Convert numbers to and from standard form
 - Perform calculations with numbers in standard form
 
@@ -187,6 +191,7 @@ Students should be taught to:
   $$
   a^3 = a \times a \times a, \quad a^0 = 1, \quad a^{-1} = \frac{1}{a}
   $$
+
 - Use index laws:
   $$
   x^m \times x^n = x^{m+n}, \quad \frac{x^m}{x^n} = x^{m-n}, \quad (x^m)^n = x^{mn}
@@ -204,31 +209,38 @@ Students should be taught to:
   $$
   3(x + 5) = 3x + 15
   $$
+
 - Factorise simple expressions by taking out common factors:
   $$
   28xy + 12y = 4y(7x + 3)
   $$
+
 - Expand the product of two linear expressions:
   $$
   (x + 4)(x - 2) = x^2 + 2x - 8
   $$
+
 - Understand and factorise quadratic expressions of the form:
   $$
   x^2 + bx + c
   $$
+
 - (Higher Tier) Expand the product of three linear expressions:
   $$
   (x + 2)(x - 1)(x + 3)
   $$
+
 - (Higher Tier) Factorise complex quadratics (e.g. $ 6x^2 - 5x - 6 $)
 - (Higher Tier) Manipulate algebraic fractions and simplify:
   $$
   \frac{3}{x-2} + \frac{1}{x+1}
   $$
+
 - (Higher Tier) Complete the square:
   $$
   x^2 + 6x - 1 = (x + 3)^2 - 10
   $$
+
 - (Higher Tier) Use algebra to construct and support proofs
 
 ---
@@ -246,6 +258,7 @@ Students should be taught to:
   $$
   A = \pi r^2 \Rightarrow r = \sqrt{\frac{A}{\pi}}, \quad v = u + at \Rightarrow t = \frac{v - u}{a}
   $$
+
 - (Higher Tier) Rearrange more complex formulae, including those where the subject appears more than once or appears as a power
 
 ---
@@ -258,10 +271,12 @@ Students should be taught to:
   $$
   5x + 8 = 12, \quad 7(x - 3) = 5x - 8
   $$
+
 - Solve linear equations with fractional coefficients:
   $$
   \frac{4x + 5}{2} = 3
   $$
+
 - Set up and solve simple linear equations from word problems:
   E.g. Angles in a triangle add to 180°:
   $$
@@ -287,10 +302,12 @@ Students should be taught to:
   $$
   2x + 3y = 17, \quad 3x - 5y = 35
   $$
+
 - (Higher Tier) Solve simultaneous equations involving one linear and one quadratic equation:
   $$
   y = 2x - 11, \quad x^2 + y^2 = 25
   $$
+
 - (Higher Tier) Interpret simultaneous equations graphically as points of intersection
 
 ---
@@ -303,10 +320,12 @@ Students should be taught to:
   $$
   x^2 + x - 30 = 0 \Rightarrow (x + 6)(x - 5) = 0
   $$
+
 - (Higher Tier) Solve quadratics using the quadratic formula:
   $$
   x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
   $$
+
 - (Higher Tier) Solve quadratics by completing the square
 - (Higher Tier) Form and solve quadratics from contexts
 - (Higher Tier) Solve a quadratic and linear system of equations
@@ -318,27 +337,33 @@ Students should be taught to:
 Students should be taught to:
 
 - Use inequality symbols: $ >, <, \geq, \leq $
+
 - Represent linear inequalities on a number line:
   $$
   1 < x \leq 5
   $$
+
 - Solve inequalities such as:
   $$
   3x - 2 < 10 \Rightarrow x < 4, \quad 7 - x \leq 5 \Rightarrow x \geq 2
   $$
+
 - Solve compound inequalities:
   $$
   3 < x + 2 \leq 5 \Rightarrow 1 < x \leq 3
   $$
+
 - Represent linear inequalities in two variables on Cartesian graphs:
   Shade regions defined by:
   $$
   x \geq 0, \quad y \geq 1, \quad x + y \leq 5
   $$
+
 - (Higher Tier) Solve and represent quadratic inequalities on number lines:
   $$
   x^2 - 4 < 0 \Rightarrow -2 < x < 2
   $$
+
 - (Higher Tier) Identify regions defined by multiple inequalities on graphs
 
 # Edexcel IGCSE Mathematics A (4MA1) — Topic 3: Sequences, Functions and Graphs
