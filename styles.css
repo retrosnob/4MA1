@@ -1,1 +1,4 @@
 /* css styles */
+td, th {
+  vertical-align: top;
+}
