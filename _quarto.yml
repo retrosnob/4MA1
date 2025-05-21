@@ -11,7 +11,7 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: scheme of work.qmd
+      - href: scheme-of-work.qmd
         text: Scheme of Work
       - href: vectors.qmd
         text: Vectors
