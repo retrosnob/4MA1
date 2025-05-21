@@ -59,7 +59,7 @@ In the diagram:
 
 $\vec{OP} = \mathbf{a}$
 
-$\vec{OR} = \mathbf{b}$
+$\vec{OQ} = \mathbf{b}$
 
 Given that OPRQ is a parallelogram, write down the following in terms of **a** and **b**:
 
@@ -91,13 +91,54 @@ Calculate $\vec{CA}$ as a column vector.
 
 Given that
 
-	$\vec{AC} = \begin{pmatrix}-21 \\15\end{pmatrix}$
+$\vec{AC} = \begin{pmatrix}-21 \\15\end{pmatrix}$
 
-	B is the point on AC such that AB:BC = 1:2
+B is the point on AC such that AB:BC = 1:2
 
 Calculate $\vec{AB}$ as a column vector.
 
-## More Advanced Vectors
+# More Advanced Vectors
+
+## Parallel Vectors and Vectors in a Straight Line 
+
+Consider the following diagram from an IGCSE past paper.
+
+![Vectors in a straight line](img/vec%20scalar%20multiple%20in%20line.png)
+
+The question states
+
+OPTR is a trapezium.
+
+$\vec{OP} = \mathbf{a}$
+
+$\vec{PT} = \mathbf{b}$
+
+$\vec{OR} = 3\mathbf{b}$
+
+And then asks you to
+
+Find $\vec{OR}$ in terms of **a** and **b**.
+
+Find $\vec{PR}$ in terms of **a** and **b**, giving your answer in its simplest form.
+
+You should already be able to do these parts of the question.
+
+The question then goes on to state
+
+S is the point on PR such that PS:SR = 1:3.
+
+And then asks
+
+Find $\vec{OS}$ in terms of **a** and **b**.
+
+What does your answer tell you about the position of point S?
+
+:::{.callout-tip}
+**Hint**
+
+We can see that $\vec{OS} = \vec{OP} + $\vec{PS}$ so we just need to find 
+:::
+
 
 Combinations of vectors.
 
