@@ -1,8 +1,8 @@
 ---
-title: "4MA1"
+title: "Edexcel IGCSE Mathematics A (4MA1)"
 ---
 
-# Edexcel IGCSE Mathematics A (4MA1) — Topic 1: Numbers and the Number System
+# Topic 1: Numbers and the Number System
 
 This syllabus combines Foundation and Higher Tier content.
 
@@ -116,7 +116,7 @@ Students should be taught to:
 
 - Solve percentage problems including increase and decrease
 - Use reverse percentages:
-  e.g. An item costs $£17.50$ after a 30% reduction. What was the original price?
+  e.g. An item costs £17.50 after a 30% reduction. What was the original price?
 - Use compound interest and depreciation (Higher Tier)
 - Use repeated percentage change (Higher Tier)
 
@@ -175,7 +175,7 @@ Students should be taught to:
 
 - Use a scientific calculator effectively for a range of calculations
 
-# Edexcel IGCSE Mathematics A (4MA1) — Topic 2: Equations, Formulae and Identities
+# Topic 2: Equations, Formulae and Identities
 
 This topic combines Foundation and Higher Tier content.
 
@@ -367,7 +367,7 @@ Students should be taught to:
 
 - (Higher Tier) Identify regions defined by multiple inequalities on graphs
 
-# Edexcel IGCSE Mathematics A (4MA1) — Topic 3: Sequences, Functions and Graphs
+# Topic 3: Sequences, Functions and Graphs
 
 This topic combines Foundation and Higher Tier content.
 
@@ -479,7 +479,7 @@ Students should be taught to:
   - Simple kinematics (e.g. $s(t) \rightarrow v(t) \rightarrow a(t)$)
   - Practical problems involving rate of change
 
-# Edexcel IGCSE Mathematics A (4MA1) — Topic 4: Geometry and Trigonometry
+# Topic 4: Geometry and Trigonometry
 
 This topic combines Foundation and Higher Tier content.
 
@@ -664,7 +664,7 @@ Students should be taught to:
   - Volume scale factor = (length scale factor)³
 - Solve problems using similarity
 
-# Edexcel IGCSE Mathematics A (4MA1) — Topic 5: Vectors and Transformation Geometry
+# Topic 5: Vectors and Transformation Geometry
 
 This topic combines Foundation and Higher Tier content.
 
@@ -722,7 +722,7 @@ Students should be taught to:
 - Identify and describe transformations (including combinations)
 - Use correct mathematical language when describing transformations
 
-# Edexcel IGCSE Mathematics A (4MA1) — Topic 6: Statistics and Probability
+# Topic 6: Statistics and Probability
 
 This topic combines Foundation and Higher Tier content.
 
