@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -122,8 +151,69 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#edexcel-igcse-mathematics-a-4ma1-topic-1-numbers-and-the-number-system" id="toc-edexcel-igcse-mathematics-a-4ma1-topic-1-numbers-and-the-number-system" class="nav-link active" data-scroll-target="#edexcel-igcse-mathematics-a-4ma1-topic-1-numbers-and-the-number-system">Edexcel IGCSE Mathematics A (4MA1) — Topic 1: Numbers and the Number System</a>
+  <ul class="collapse">
+  <li><a href="#integers" id="toc-integers" class="nav-link" data-scroll-target="#integers">1.1 Integers</a></li>
+  <li><a href="#fractions" id="toc-fractions" class="nav-link" data-scroll-target="#fractions">1.2 Fractions</a></li>
+  <li><a href="#decimals" id="toc-decimals" class="nav-link" data-scroll-target="#decimals">1.3 Decimals</a></li>
+  <li><a href="#powers-and-roots" id="toc-powers-and-roots" class="nav-link" data-scroll-target="#powers-and-roots">1.4 Powers and Roots</a></li>
+  <li><a href="#set-language-and-notation" id="toc-set-language-and-notation" class="nav-link" data-scroll-target="#set-language-and-notation">1.5 Set Language and Notation</a></li>
+  <li><a href="#percentages" id="toc-percentages" class="nav-link" data-scroll-target="#percentages">1.6 Percentages</a></li>
+  <li><a href="#ratio-and-proportion" id="toc-ratio-and-proportion" class="nav-link" data-scroll-target="#ratio-and-proportion">1.7 Ratio and Proportion</a></li>
+  <li><a href="#degree-of-accuracy" id="toc-degree-of-accuracy" class="nav-link" data-scroll-target="#degree-of-accuracy">1.8 Degree of Accuracy</a></li>
+  <li><a href="#standard-form" id="toc-standard-form" class="nav-link" data-scroll-target="#standard-form">1.9 Standard Form</a></li>
+  <li><a href="#applying-number" id="toc-applying-number" class="nav-link" data-scroll-target="#applying-number">1.10 Applying Number</a></li>
+  <li><a href="#electronic-calculators" id="toc-electronic-calculators" class="nav-link" data-scroll-target="#electronic-calculators">1.11 Electronic Calculators</a></li>
+  </ul></li>
+  <li><a href="#edexcel-igcse-mathematics-a-4ma1-topic-2-equations-formulae-and-identities" id="toc-edexcel-igcse-mathematics-a-4ma1-topic-2-equations-formulae-and-identities" class="nav-link" data-scroll-target="#edexcel-igcse-mathematics-a-4ma1-topic-2-equations-formulae-and-identities">Edexcel IGCSE Mathematics A (4MA1) — Topic 2: Equations, Formulae and Identities</a>
+  <ul class="collapse">
+  <li><a href="#use-of-symbols" id="toc-use-of-symbols" class="nav-link" data-scroll-target="#use-of-symbols">2.1 Use of Symbols</a></li>
+  <li><a href="#algebraic-manipulation" id="toc-algebraic-manipulation" class="nav-link" data-scroll-target="#algebraic-manipulation">2.2 Algebraic Manipulation</a></li>
+  <li><a href="#expressions-and-formulae" id="toc-expressions-and-formulae" class="nav-link" data-scroll-target="#expressions-and-formulae">2.3 Expressions and Formulae</a></li>
+  <li><a href="#linear-equations" id="toc-linear-equations" class="nav-link" data-scroll-target="#linear-equations">2.4 Linear Equations</a></li>
+  <li><a href="#proportion" id="toc-proportion" class="nav-link" data-scroll-target="#proportion">2.5 Proportion</a></li>
+  <li><a href="#simultaneous-equations" id="toc-simultaneous-equations" class="nav-link" data-scroll-target="#simultaneous-equations">2.6 Simultaneous Equations</a></li>
+  <li><a href="#quadratic-equations" id="toc-quadratic-equations" class="nav-link" data-scroll-target="#quadratic-equations">2.7 Quadratic Equations</a></li>
+  <li><a href="#inequalities" id="toc-inequalities" class="nav-link" data-scroll-target="#inequalities">2.8 Inequalities</a></li>
+  </ul></li>
+  <li><a href="#edexcel-igcse-mathematics-a-4ma1-topic-3-sequences-functions-and-graphs" id="toc-edexcel-igcse-mathematics-a-4ma1-topic-3-sequences-functions-and-graphs" class="nav-link" data-scroll-target="#edexcel-igcse-mathematics-a-4ma1-topic-3-sequences-functions-and-graphs">Edexcel IGCSE Mathematics A (4MA1) — Topic 3: Sequences, Functions and Graphs</a>
+  <ul class="collapse">
+  <li><a href="#sequences" id="toc-sequences" class="nav-link" data-scroll-target="#sequences">3.1 Sequences</a></li>
+  <li><a href="#function-notation-higher-tier" id="toc-function-notation-higher-tier" class="nav-link" data-scroll-target="#function-notation-higher-tier">3.2 Function Notation (Higher Tier)</a></li>
+  <li><a href="#graphs" id="toc-graphs" class="nav-link" data-scroll-target="#graphs">3.3 Graphs</a></li>
+  <li><a href="#calculus-higher-tier" id="toc-calculus-higher-tier" class="nav-link" data-scroll-target="#calculus-higher-tier">3.4 Calculus (Higher Tier)</a></li>
+  </ul></li>
+  <li><a href="#edexcel-igcse-mathematics-a-4ma1-topic-4-geometry-and-trigonometry" id="toc-edexcel-igcse-mathematics-a-4ma1-topic-4-geometry-and-trigonometry" class="nav-link" data-scroll-target="#edexcel-igcse-mathematics-a-4ma1-topic-4-geometry-and-trigonometry">Edexcel IGCSE Mathematics A (4MA1) — Topic 4: Geometry and Trigonometry</a>
+  <ul class="collapse">
+  <li><a href="#angles-lines-and-triangles" id="toc-angles-lines-and-triangles" class="nav-link" data-scroll-target="#angles-lines-and-triangles">4.1 Angles, Lines and Triangles</a></li>
+  <li><a href="#polygons" id="toc-polygons" class="nav-link" data-scroll-target="#polygons">4.2 Polygons</a></li>
+  <li><a href="#symmetry" id="toc-symmetry" class="nav-link" data-scroll-target="#symmetry">4.3 Symmetry</a></li>
+  <li><a href="#measures" id="toc-measures" class="nav-link" data-scroll-target="#measures">4.4 Measures</a></li>
+  <li><a href="#construction" id="toc-construction" class="nav-link" data-scroll-target="#construction">4.5 Construction</a></li>
+  <li><a href="#circle-properties" id="toc-circle-properties" class="nav-link" data-scroll-target="#circle-properties">4.6 Circle Properties</a></li>
+  <li><a href="#geometrical-reasoning" id="toc-geometrical-reasoning" class="nav-link" data-scroll-target="#geometrical-reasoning">4.7 Geometrical Reasoning</a></li>
+  <li><a href="#trigonometry-and-pythagoras-theorem" id="toc-trigonometry-and-pythagoras-theorem" class="nav-link" data-scroll-target="#trigonometry-and-pythagoras-theorem">4.8 Trigonometry and Pythagoras’ Theorem</a></li>
+  <li><a href="#mensuration" id="toc-mensuration" class="nav-link" data-scroll-target="#mensuration">4.9 Mensuration</a></li>
+  <li><a href="#similarity" id="toc-similarity" class="nav-link" data-scroll-target="#similarity">4.10 Similarity</a></li>
+  </ul></li>
+  <li><a href="#edexcel-igcse-mathematics-a-4ma1-topic-5-vectors-and-transformation-geometry" id="toc-edexcel-igcse-mathematics-a-4ma1-topic-5-vectors-and-transformation-geometry" class="nav-link" data-scroll-target="#edexcel-igcse-mathematics-a-4ma1-topic-5-vectors-and-transformation-geometry">Edexcel IGCSE Mathematics A (4MA1) — Topic 5: Vectors and Transformation Geometry</a>
+  <ul class="collapse">
+  <li><a href="#vectors-higher-tier" id="toc-vectors-higher-tier" class="nav-link" data-scroll-target="#vectors-higher-tier">5.1 Vectors (Higher Tier)</a></li>
+  <li><a href="#transformation-geometry" id="toc-transformation-geometry" class="nav-link" data-scroll-target="#transformation-geometry">5.2 Transformation Geometry</a></li>
+  </ul></li>
+  <li><a href="#edexcel-igcse-mathematics-a-4ma1-topic-6-statistics-and-probability" id="toc-edexcel-igcse-mathematics-a-4ma1-topic-6-statistics-and-probability" class="nav-link" data-scroll-target="#edexcel-igcse-mathematics-a-4ma1-topic-6-statistics-and-probability">Edexcel IGCSE Mathematics A (4MA1) — Topic 6: Statistics and Probability</a>
+  <ul class="collapse">
+  <li><a href="#graphical-representation-of-data" id="toc-graphical-representation-of-data" class="nav-link" data-scroll-target="#graphical-representation-of-data">6.1 Graphical Representation of Data</a></li>
+  <li><a href="#statistical-measures" id="toc-statistical-measures" class="nav-link" data-scroll-target="#statistical-measures">6.2 Statistical Measures</a></li>
+  <li><a href="#probability" id="toc-probability" class="nav-link" data-scroll-target="#probability">6.3 Probability</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -147,9 +237,708 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Concise notes and exercises for Edexcel 4MA1 IGCSE Mathematics.</p>
+<section id="edexcel-igcse-mathematics-a-4ma1-topic-1-numbers-and-the-number-system" class="level1">
+<h1>Edexcel IGCSE Mathematics A (4MA1) — Topic 1: Numbers and the Number System</h1>
+<p>This syllabus combines Foundation and Higher Tier content.</p>
+<hr>
+<section id="integers" class="level2">
+<h2 class="anchored" data-anchor-id="integers">1.1 Integers</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand and use integers (positive, negative and zero)</li>
+<li>Understand place value</li>
+<li>Use directed numbers in practical situations (e.g.&nbsp;temperatures)</li>
+<li>Order integers</li>
+<li>Use the four rules of addition, subtraction, multiplication and division</li>
+<li>Use brackets and the hierarchy of operations</li>
+<li>Use the terms “odd”, “even”, “prime numbers”, “factors” and “multiples”</li>
+<li>Identify prime factors, common factors and common multiples</li>
+</ul>
+<hr>
+</section>
+<section id="fractions" class="level2">
+<h2 class="anchored" data-anchor-id="fractions">1.2 Fractions</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand and use equivalent fractions, simplifying a fraction by cancelling common factors: [ = ]</li>
+<li>Understand and use mixed numbers and vulgar fractions</li>
+<li>Identify common denominators</li>
+<li>Order fractions and calculate a given fraction of a quantity</li>
+<li>Express a number as a fraction of another number</li>
+<li>Use common denominators to add and subtract fractions and mixed numbers: [ + , - ]</li>
+<li>Convert a fraction to a decimal or a percentage: [ = 0.6 = 60%, = 0. = 44.% ]</li>
+<li>Understand and use unit fractions as multiplicative inverses: [ = ]</li>
+<li>Multiply and divide fractions and mixed numbers: [ , ]</li>
+</ul>
+<hr>
+</section>
+<section id="decimals" class="level2">
+<h2 class="anchored" data-anchor-id="decimals">1.3 Decimals</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Use decimal notation</li>
+<li>Understand place value</li>
+<li>Order decimals</li>
+<li>Convert decimals to fractions and percentages (terminating decimals only)</li>
+<li>Recognise that a terminating decimal is a fraction: [ 0.65 = = ]</li>
+<li>Convert recurring decimals into fractions (Higher Tier): [ 0. = , . = = ]</li>
+</ul>
+<hr>
+</section>
+<section id="powers-and-roots" class="level2">
+<h2 class="anchored" data-anchor-id="powers-and-roots">1.4 Powers and Roots</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Identify square and cube numbers</li>
+<li>Calculate squares, square roots, cubes and cube roots</li>
+<li>Use index notation and index laws for multiplication and division of positive and negative integer powers, including zero: [ a^0 = 1, a^m a^n = a^{m+n}, = a^{m-n} ]</li>
+<li>Express integers as a product of powers of prime factors: [ 720 = 2^4 ^2 ]</li>
+<li>Find HCF and LCM using prime factor form</li>
+<li>Understand the meaning of surds (Higher Tier)</li>
+<li>Manipulate surds, including rationalising a denominator (Higher Tier): [ + = 2 + 4 = 6 ] [ = ]</li>
+<li>Use index laws to simplify and evaluate expressions involving integer, fractional and negative powers: [ 25^{1/2} = 5, ^{-1/3} = ]</li>
+</ul>
+<hr>
+</section>
+<section id="set-language-and-notation" class="level2">
+<h2 class="anchored" data-anchor-id="set-language-and-notation">1.5 Set Language and Notation</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand the definition of a set</li>
+<li>Use the set notation: [ , , , , , , E ]</li>
+<li>Understand the universal set and the empty set</li>
+<li>Understand and use the complement of a set: [ A’ ]</li>
+<li>Use Venn diagrams to represent sets</li>
+<li>Understand and use sets defined in algebraic terms (Higher Tier)</li>
+<li>Use notation ( n(A) ) for the number of elements in set ( A ) (Higher Tier)</li>
+<li>Use sets in practical contexts (Higher Tier)</li>
+</ul>
+<hr>
+</section>
+<section id="percentages" class="level2">
+<h2 class="anchored" data-anchor-id="percentages">1.6 Percentages</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand that “percentage” means “number of parts per 100”</li>
+<li>Express a number as a percentage of another</li>
+<li>Express percentages as fractions and decimals</li>
+<li>Understand percentages as operators: [ = = 18 ]</li>
+<li>Solve percentage problems including increase and decrease</li>
+<li>Use reverse percentages: “An item costs ( 17.50 ) after a 30% reduction. What was the original price?”</li>
+<li>Use compound interest and depreciation (Higher Tier)</li>
+<li>Use repeated percentage change (Higher Tier)</li>
+</ul>
+<hr>
+</section>
+<section id="ratio-and-proportion" class="level2">
+<h2 class="anchored" data-anchor-id="ratio-and-proportion">1.7 Ratio and Proportion</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Use ratio notation and reduce to simplest form</li>
+<li>Convert between ratios and fractions</li>
+<li>Divide a quantity in a given ratio</li>
+<li>Use proportion to find unknown quantities</li>
+<li>Solve problems involving direct and inverse proportion (Higher Tier)</li>
+<li>Interpret and solve word problems involving ratio and proportion, including maps and scale diagrams</li>
+</ul>
+<hr>
+</section>
+<section id="degree-of-accuracy" class="level2">
+<h2 class="anchored" data-anchor-id="degree-of-accuracy">1.8 Degree of Accuracy</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Round numbers to powers of 10, significant figures, and decimal places</li>
+<li>Identify upper and lower bounds for rounded numbers</li>
+<li>Use estimation to evaluate approximations: Round values to 1 significant figure</li>
+<li>Solve problems involving bounds (Higher Tier)</li>
+</ul>
+<hr>
+</section>
+<section id="standard-form" class="level2">
+<h2 class="anchored" data-anchor-id="standard-form">1.9 Standard Form</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand and use standard form: [ a ^n 1 a &lt; 10, ; n ]</li>
+<li>Convert numbers to and from standard form</li>
+<li>Perform calculations with numbers in standard form</li>
+</ul>
+<hr>
+</section>
+<section id="applying-number" class="level2">
+<h2 class="anchored" data-anchor-id="applying-number">1.10 Applying Number</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Apply number skills in real-life contexts: personal, domestic, community</li>
+<li>Use standard units of mass, length, area, volume and capacity (metric only)</li>
+<li>Perform time calculations and currency conversions</li>
+</ul>
+<hr>
+</section>
+<section id="electronic-calculators" class="level2">
+<h2 class="anchored" data-anchor-id="electronic-calculators">1.11 Electronic Calculators</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Use a scientific calculator effectively for a range of calculations</li>
+</ul>
+</section>
+</section>
+<section id="edexcel-igcse-mathematics-a-4ma1-topic-2-equations-formulae-and-identities" class="level1">
+<h1>Edexcel IGCSE Mathematics A (4MA1) — Topic 2: Equations, Formulae and Identities</h1>
+<p>This topic combines Foundation and Higher Tier content.</p>
+<hr>
+<section id="use-of-symbols" class="level2">
+<h2 class="anchored" data-anchor-id="use-of-symbols">2.1 Use of Symbols</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand that symbols may represent numbers or variables in expressions, equations, or formulae</li>
+<li>Understand that algebraic expressions follow the generalised rules of arithmetic</li>
+<li>Use index notation for positive, negative, and zero integer powers: [ a^3 = a a a, a^0 = 1, a^{-1} = ]</li>
+<li>Use index laws: [ x^m x^n = x^{m+n}, = x^{m-n}, (x<sup>m)</sup>n = x^{mn} ]</li>
+</ul>
+<hr>
+</section>
+<section id="algebraic-manipulation" class="level2">
+<h2 class="anchored" data-anchor-id="algebraic-manipulation">2.2 Algebraic Manipulation</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Evaluate expressions by substituting values into variables</li>
+<li>Collect like terms</li>
+<li>Multiply a single term over a bracket: [ 3(x + 5) = 3x + 15 ]</li>
+<li>Factorise simple expressions by taking out common factors: [ 28xy + 12y = 4y(7x + 3) ]</li>
+<li>Expand the product of two linear expressions: [ (x + 4)(x - 2) = x^2 + 2x - 8 ]</li>
+<li>Understand and factorise quadratic expressions of the form: [ x^2 + bx + c ]</li>
+<li>(Higher Tier) Expand the product of three linear expressions: [ (x + 2)(x - 1)(x + 3) ]</li>
+<li>(Higher Tier) Factorise complex quadratics (e.g.&nbsp;( 6x^2 - 5x - 6 ))</li>
+<li>(Higher Tier) Manipulate algebraic fractions and simplify: [ + ]</li>
+<li>(Higher Tier) Complete the square: [ x^2 + 6x - 1 = (x + 3)^2 - 10 ]</li>
+<li>(Higher Tier) Use algebra to construct and support proofs</li>
+</ul>
+<hr>
+</section>
+<section id="expressions-and-formulae" class="level2">
+<h2 class="anchored" data-anchor-id="expressions-and-formulae">2.3 Expressions and Formulae</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand that letters may represent unknowns or variables</li>
+<li>Use correct algebraic notation</li>
+<li>Substitute values into expressions and formulae including negative, fractional, and decimal values</li>
+<li>Use and construct formulae from contexts (e.g.&nbsp;area, physics)</li>
+<li>Derive a formula from a description or diagram</li>
+<li>Change the subject of a formula (where the subject appears once): [ A = r^2 r = , v = u + at t = ]</li>
+<li>(Higher Tier) Rearrange more complex formulae, including those where the subject appears more than once or appears as a power</li>
+</ul>
+<hr>
+</section>
+<section id="linear-equations" class="level2">
+<h2 class="anchored" data-anchor-id="linear-equations">2.4 Linear Equations</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Solve linear equations with the unknown on one or both sides: [ 5x + 8 = 12, (x - 3) = 5x - 8 ]</li>
+<li>Solve linear equations with fractional coefficients: [ = 3 ]</li>
+<li>Set up and solve simple linear equations from word problems: E.g. Angles in a triangle add to 180°: [ a + (a + 10) + (a + 20) = 180 ]</li>
+</ul>
+<hr>
+</section>
+<section id="proportion" class="level2">
+<h2 class="anchored" data-anchor-id="proportion">2.5 Proportion</h2>
+<ul>
+<li>(Higher Tier) Set up equations from proportional relationships: [ y x^2 y = kx^2 ]</li>
+</ul>
+<hr>
+</section>
+<section id="simultaneous-equations" class="level2">
+<h2 class="anchored" data-anchor-id="simultaneous-equations">2.6 Simultaneous Equations</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Solve a pair of simultaneous linear equations algebraically (elimination or substitution) [ 2x + 3y = 17, 3x - 5y = 35 ]</li>
+<li>(Higher Tier) Solve simultaneous equations involving one linear and one quadratic equation: [ y = 2x - 11, x^2 + y^2 = 25 ]</li>
+<li>(Higher Tier) Interpret simultaneous equations graphically as points of intersection</li>
+</ul>
+<hr>
+</section>
+<section id="quadratic-equations" class="level2">
+<h2 class="anchored" data-anchor-id="quadratic-equations">2.7 Quadratic Equations</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Solve quadratic equations by factorising: [ x^2 + x - 30 = 0 (x + 6)(x - 5) = 0 ]</li>
+<li>(Higher Tier) Solve quadratics using the quadratic formula: [ x = ]</li>
+<li>(Higher Tier) Solve quadratics by completing the square</li>
+<li>(Higher Tier) Form and solve quadratics from contexts</li>
+<li>(Higher Tier) Solve a quadratic and linear system of equations</li>
+</ul>
+<hr>
+</section>
+<section id="inequalities" class="level2">
+<h2 class="anchored" data-anchor-id="inequalities">2.8 Inequalities</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Use inequality symbols: ( &gt;, &lt;, , )</li>
+<li>Represent linear inequalities on a number line: [ 1 &lt; x ]</li>
+<li>Solve inequalities such as: [ 3x - 2 &lt; 10 x &lt; 4, - x x ]</li>
+<li>Solve compound inequalities: [ 3 &lt; x + 2 &lt; x ]</li>
+<li>Represent linear inequalities in two variables on Cartesian graphs: Shade regions defined by: [ x , y , x + y ]</li>
+<li>(Higher Tier) Solve and represent quadratic inequalities on number lines: [ x^2 - 4 &lt; 0 &lt; x &lt; 2 ]</li>
+<li>(Higher Tier) Identify regions defined by multiple inequalities on graphs</li>
+</ul>
+</section>
+</section>
+<section id="edexcel-igcse-mathematics-a-4ma1-topic-3-sequences-functions-and-graphs" class="level1">
+<h1>Edexcel IGCSE Mathematics A (4MA1) — Topic 3: Sequences, Functions and Graphs</h1>
+<p>This topic combines Foundation and Higher Tier content.</p>
+<hr>
+<section id="sequences" class="level2">
+<h2 class="anchored" data-anchor-id="sequences">3.1 Sequences</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Generate terms of a sequence using:
+<ul>
+<li>Term-to-term rules</li>
+<li>Position-to-term rules</li>
+</ul></li>
+<li>Identify and continue integer sequences including:
+<ul>
+<li>Odd and even numbers</li>
+<li>Squares, multiples and powers</li>
+</ul></li>
+<li>Use linear expressions to describe the nth term of an arithmetic sequence: [ 2, 5, 8, 11, nth = 3n - 1 ]</li>
+<li>Recognise and use:
+<ul>
+<li>Arithmetic sequences</li>
+<li>Geometric sequences (Higher Tier)</li>
+<li>Quadratic sequences (Higher Tier)</li>
+</ul></li>
+<li>Know and use:
+<ul>
+<li>First term ( a )</li>
+<li>Common difference ( d ) in arithmetic sequences</li>
+</ul></li>
+<li>Find the sum of the first ( n ) terms of an arithmetic series (Higher Tier): [ S_n = (2a + (n - 1)d) ]</li>
+</ul>
+<hr>
+</section>
+<section id="function-notation-higher-tier" class="level2">
+<h2 class="anchored" data-anchor-id="function-notation-higher-tier">3.2 Function Notation (Higher Tier)</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand the concept of a function as a mapping between two sets</li>
+<li>Use function notation: [ f(x) = 3x + 1, f: x 3x + 1 ]</li>
+<li>Understand domain and range</li>
+<li>Identify values to exclude from the domain (e.g.&nbsp;for ( f(x) = ), ( x ))</li>
+<li>Find composite functions ( fg(x) )</li>
+<li>Find inverse functions ( f^{-1}(x) )</li>
+</ul>
+<hr>
+</section>
+<section id="graphs" class="level2">
+<h2 class="anchored" data-anchor-id="graphs">3.3 Graphs</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Interpret and draw information from a range of linear and non-linear graphs, including:
+<ul>
+<li>Distance-time graphs</li>
+<li>Speed-time graphs</li>
+</ul></li>
+<li>Use Cartesian coordinates in all four quadrants</li>
+<li>Plot points ( (x, y) ) and locate them on the plane</li>
+<li>Determine coordinates of points from geometric descriptions</li>
+<li>Find the midpoint of a line segment: [ (x_1, y_1) (x_2, y_2) = (, ) ]</li>
+<li>Draw and interpret conversion graphs, including currency conversions</li>
+<li>Calculate the gradient of a straight line: [ m = ]</li>
+<li>Understand equations of straight lines in the form ( y = mx + c ), where:
+<ul>
+<li>( m ) is the gradient</li>
+<li>( c ) is the y-intercept</li>
+</ul></li>
+<li>Write the equation of a straight line from its graph</li>
+<li>Recognise and plot graphs of:
+<ul>
+<li>Linear functions ( y = mx + c )</li>
+<li>Vertical and horizontal lines ( x = a, y = b )</li>
+<li>Quadratic functions ( y = ax^2 + bx + c )</li>
+<li>Simple cubic and reciprocal functions (Higher Tier)</li>
+</ul></li>
+<li>Complete tables of values for functions</li>
+<li>Identify and draw:
+<ul>
+<li>Parallel lines (same gradient)</li>
+<li>Perpendicular lines (negative reciprocal gradients)</li>
+</ul></li>
+<li>(Higher Tier) Plot and interpret:
+<ul>
+<li>Cubic functions: ( y = x^3 )</li>
+<li>Reciprocal functions: ( y = )</li>
+</ul></li>
+<li>(Higher Tier) Find the intersection of two graphs (linear and non-linear): Solve ( f(x) = g(x) ) graphically or algebraically</li>
+<li>(Higher Tier) Apply transformations to graphs of functions: [ y = f(x) + a, y = f(x + a), y = af(x), y = f(ax) ]</li>
+</ul>
+<hr>
+</section>
+<section id="calculus-higher-tier" class="level2">
+<h2 class="anchored" data-anchor-id="calculus-higher-tier">3.4 Calculus (Higher Tier)</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand the concept of a variable rate of change</li>
+<li>Differentiate simple functions: [ x^n = nx^{n-1} ]</li>
+<li>Use differentiation to:
+<ul>
+<li>Find gradients of curves</li>
+<li>Calculate instantaneous rates of change</li>
+<li>Find and classify stationary points</li>
+</ul></li>
+<li>Identify maxima and minima from graphs</li>
+<li>Apply calculus to:
+<ul>
+<li>Simple kinematics (e.g.&nbsp;( s(t) v(t) a(t) ))</li>
+<li>Practical problems involving rate of change</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="edexcel-igcse-mathematics-a-4ma1-topic-4-geometry-and-trigonometry" class="level1">
+<h1>Edexcel IGCSE Mathematics A (4MA1) — Topic 4: Geometry and Trigonometry</h1>
+<p>This topic combines Foundation and Higher Tier content.</p>
+<hr>
+<section id="angles-lines-and-triangles" class="level2">
+<h2 class="anchored" data-anchor-id="angles-lines-and-triangles">4.1 Angles, Lines and Triangles</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Distinguish between acute, obtuse, reflex and right angles</li>
+<li>Use angle facts:
+<ul>
+<li>Angles on a straight line sum to (180^)</li>
+<li>Angles at a point sum to (360^)</li>
+<li>Vertically opposite angles are equal</li>
+</ul></li>
+<li>Use properties of angles with parallel lines:
+<ul>
+<li>Alternate angles are equal</li>
+<li>Corresponding angles are equal</li>
+<li>Allied (co-interior) angles sum to (180^)</li>
+</ul></li>
+<li>Understand the exterior angle and angle sum properties of triangles:
+<ul>
+<li>The exterior angle equals the sum of the opposite interior angles</li>
+<li>The angles in a triangle sum to (180^)</li>
+</ul></li>
+<li>Use properties of:
+<ul>
+<li>Equilateral, isosceles, and right-angled triangles</li>
+<li>Congruent triangles</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="polygons" class="level2">
+<h2 class="anchored" data-anchor-id="polygons">4.2 Polygons</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Name and recognise common polygons:
+<ul>
+<li>Triangle, quadrilateral, pentagon, hexagon, octagon, etc.</li>
+</ul></li>
+<li>Understand and use the angle sum of polygons: [ = (n - 2) ^ ]</li>
+<li>Calculate interior and exterior angles of regular polygons: [ = , = 180^- ]</li>
+<li>Use properties of quadrilaterals:
+<ul>
+<li>Parallelogram, rectangle, rhombus, trapezium, kite, square</li>
+</ul></li>
+<li>Understand congruence: same shape and size</li>
+</ul>
+<hr>
+</section>
+<section id="symmetry" class="level2">
+<h2 class="anchored" data-anchor-id="symmetry">4.3 Symmetry</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Identify lines of symmetry and order of rotational symmetry for 2D shapes</li>
+</ul>
+<hr>
+</section>
+<section id="measures" class="level2">
+<h2 class="anchored" data-anchor-id="measures">4.4 Measures</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Interpret scales and read measuring instruments</li>
+<li>Calculate time intervals using 12-hour and 24-hour clocks</li>
+<li>Estimate a range of measures</li>
+<li>Use three-figure bearings</li>
+<li>Measure angles to the nearest degree</li>
+<li>Use the formula: [ = ]</li>
+<li>Use compound measures (Higher Tier):
+<ul>
+<li>Density = mass/volume</li>
+<li>Pressure = force/area</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="construction" class="level2">
+<h2 class="anchored" data-anchor-id="construction">4.5 Construction</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Measure and draw lines to the nearest mm</li>
+<li>Construct triangles and other 2D shapes using ruler, protractor, and compasses</li>
+<li>Solve problems using scale drawings</li>
+<li>Use straight edge and compasses to:
+<ul>
+<li>Construct the perpendicular bisector of a line</li>
+<li>Construct the bisector of an angle</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="circle-properties" class="level2">
+<h2 class="anchored" data-anchor-id="circle-properties">4.6 Circle Properties</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Know and use terms: centre, radius, chord, diameter, circumference, arc, sector, segment, tangent</li>
+<li>Understand circle theorems (Higher Tier):
+<ul>
+<li>Angle at centre = 2 × angle at circumference</li>
+<li>Angle in semicircle = 90°</li>
+<li>Angles in same segment are equal</li>
+<li>Opposite angles in cyclic quadrilateral sum to 180°</li>
+<li>Alternate segment theorem</li>
+<li>Two tangents from a point are equal in length</li>
+<li>Tangent is perpendicular to radius at point of contact</li>
+<li>A line from the centre that is perpendicular to a chord bisects the chord</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="geometrical-reasoning" class="level2">
+<h2 class="anchored" data-anchor-id="geometrical-reasoning">4.7 Geometrical Reasoning</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Give reasons for angle values using appropriate geometric properties and theorems</li>
+</ul>
+<hr>
+</section>
+<section id="trigonometry-and-pythagoras-theorem" class="level2">
+<h2 class="anchored" data-anchor-id="trigonometry-and-pythagoras-theorem">4.8 Trigonometry and Pythagoras’ Theorem</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Use Pythagoras’ Theorem in 2D: [ a^2 + b^2 = c^2 ]</li>
+<li>Use trigonometric ratios in right-angled triangles: [ = , = , = ]</li>
+<li>(Higher Tier) Use sine, cosine and tangent for obtuse angles</li>
+<li>Solve problems involving angles of elevation and depression</li>
+<li>(Higher Tier) Use sine and cosine rules: [ = = , a^2 = b^2 + c^2 - 2bcA ]</li>
+<li>(Higher Tier) Use: [ = ab C ]</li>
+<li>(Higher Tier) Use trigonometry and Pythagoras’ Theorem in 3D</li>
+<li>(Higher Tier) Find the angle between a line and a plane</li>
+</ul>
+<hr>
+</section>
+<section id="mensuration" class="level2">
+<h2 class="anchored" data-anchor-id="mensuration">4.9 Mensuration</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Convert between metric units, including square and cubic units</li>
+<li>Calculate perimeters and areas of:
+<ul>
+<li>Rectangles, triangles, parallelograms, trapezia, circles, semicircles</li>
+</ul></li>
+<li>Calculate: [ = (a + b)h ] [ = r^2, = 2r ]</li>
+<li>Calculate volumes and surface areas of:
+<ul>
+<li>Cubes, cuboids, prisms, cylinders</li>
+</ul></li>
+<li>(Higher Tier) Calculate volume and surface area of:
+<ul>
+<li>Spheres, cones, pyramids</li>
+<li>( V = r^3, V = r^2 h )</li>
+</ul></li>
+<li>Convert between cm³, m³ and litres</li>
+</ul>
+<hr>
+</section>
+<section id="similarity" class="level2">
+<h2 class="anchored" data-anchor-id="similarity">4.10 Similarity</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Recognise similar figures: same shape, different size</li>
+<li>Understand:
+<ul>
+<li>Corresponding angles are equal</li>
+<li>Corresponding sides are in the same ratio</li>
+</ul></li>
+<li>Use scale factors for enlargement</li>
+<li>(Higher Tier) Use:
+<ul>
+<li>Area scale factor = (length scale factor)²</li>
+<li>Volume scale factor = (length scale factor)³</li>
+</ul></li>
+<li>Solve problems using similarity</li>
+</ul>
+</section>
+</section>
+<section id="edexcel-igcse-mathematics-a-4ma1-topic-5-vectors-and-transformation-geometry" class="level1">
+<h1>Edexcel IGCSE Mathematics A (4MA1) — Topic 5: Vectors and Transformation Geometry</h1>
+<p>This topic combines Foundation and Higher Tier content.</p>
+<hr>
+<section id="vectors-higher-tier" class="level2">
+<h2 class="anchored" data-anchor-id="vectors-higher-tier">5.1 Vectors (Higher Tier)</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand that a vector has both <strong>magnitude</strong> and <strong>direction</strong></li>
+<li>Use vector notation, including:
+<ul>
+<li>Column vectors: (
+<span class="math display">\[\begin{bmatrix} x \\ y \end{bmatrix}\]</span>
+)</li>
+<li>Directed line segments: ( ) or ( )</li>
+</ul></li>
+<li>Perform operations with vectors:
+<ul>
+<li>Add and subtract vectors</li>
+<li>Multiply vectors by scalar quantities: [ 3
+<span class="math display">\[\begin{bmatrix} 2 \\ -1 \end{bmatrix}\]</span>
+=
+<span class="math display">\[\begin{bmatrix} 6 \\ -3 \end{bmatrix}\]</span>
+]</li>
+</ul></li>
+<li>Calculate the <strong>magnitude</strong> (modulus) of a vector: [ |
+<span class="math display">\[\begin{bmatrix} x \\ y \end{bmatrix}\]</span>
+| = ]</li>
+<li>Use vectors to represent geometric information and solve problems</li>
+<li>Use vector methods for <strong>geometrical proofs</strong> (e.g.&nbsp;show points are collinear, midpoints, parallel vectors)</li>
+</ul>
+<hr>
+</section>
+<section id="transformation-geometry" class="level2">
+<h2 class="anchored" data-anchor-id="transformation-geometry">5.2 Transformation Geometry</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand and perform the four transformations:
+<ul>
+<li><strong>Translation</strong>: described using a vector</li>
+<li><strong>Reflection</strong>: in a given line (e.g.&nbsp;( y = x,; x = -1 ))</li>
+<li><strong>Rotation</strong>: specified by centre, angle and direction</li>
+<li><strong>Enlargement</strong>: with centre and scale factor (including fractional and negative)</li>
+</ul></li>
+<li>Use column vectors to describe translations: [
+<span class="math display">\[\begin{bmatrix} 3 \\ -2 \end{bmatrix}\]</span>
+]</li>
+<li>Construct mirror lines and reflect shapes across them</li>
+<li>Understand that translations, rotations, and reflections preserve:
+<ul>
+<li><strong>Length</strong></li>
+<li><strong>Angle</strong></li>
+<li><strong>Shape</strong></li>
+<li>Therefore, images are <strong>congruent</strong> to the original</li>
+</ul></li>
+<li>Understand the properties of enlargements:
+<ul>
+<li><strong>Angles</strong> are preserved</li>
+<li><strong>Lengths</strong> are multiplied by the scale factor</li>
+</ul></li>
+<li>Perform enlargements <strong>with or without</strong> a given centre</li>
+<li>Identify and describe transformations (including combinations)</li>
+<li>Use correct mathematical language when describing transformations</li>
+</ul>
+</section>
+</section>
+<section id="edexcel-igcse-mathematics-a-4ma1-topic-6-statistics-and-probability" class="level1">
+<h1>Edexcel IGCSE Mathematics A (4MA1) — Topic 6: Statistics and Probability</h1>
+<p>This topic combines Foundation and Higher Tier content.</p>
+<hr>
+<section id="graphical-representation-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="graphical-representation-of-data">6.1 Graphical Representation of Data</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Use and interpret various forms of data presentation:
+<ul>
+<li><strong>Pictograms</strong></li>
+<li><strong>Bar charts</strong></li>
+<li><strong>Pie charts</strong></li>
+<li><strong>Line graphs</strong></li>
+<li><strong>Two-way tables</strong></li>
+</ul></li>
+<li>Construct and interpret:
+<ul>
+<li><strong>Frequency tables</strong></li>
+<li><strong>Cumulative frequency tables and diagrams</strong> (Higher Tier)</li>
+<li><strong>Histograms</strong> for continuous data with unequal class widths (Higher Tier)</li>
+</ul></li>
+<li>Identify and describe patterns and trends in graphical data</li>
+</ul>
+<hr>
+</section>
+<section id="statistical-measures" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-measures">6.2 Statistical Measures</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand the concept of an <strong>average</strong></li>
+<li>Calculate from a data list or frequency table:
+<ul>
+<li><strong>Mean</strong></li>
+<li><strong>Median</strong></li>
+<li><strong>Mode</strong></li>
+<li><strong>Range</strong></li>
+</ul></li>
+<li>(Higher Tier) Estimate the mean for <strong>grouped data</strong> using mid-interval values</li>
+<li>Identify the <strong>modal class</strong> in grouped data</li>
+<li>(Higher Tier) Use <strong>cumulative frequency diagrams</strong> to:
+<ul>
+<li>Estimate the median</li>
+<li>Estimate the interquartile range (IQR)</li>
+</ul></li>
+<li>(Higher Tier) Understand and use measures of spread:
+<ul>
+<li><strong>Range</strong></li>
+<li><strong>Interquartile range (IQR)</strong></li>
+<li><strong>Standard deviation</strong> (not calculated manually)</li>
+</ul></li>
+<li>Compare two distributions using:
+<ul>
+<li>Measures of <strong>central tendency</strong></li>
+<li>Measures of <strong>spread</strong></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="probability" class="level2">
+<h2 class="anchored" data-anchor-id="probability">6.3 Probability</h2>
+<p>Students should be taught to:</p>
+<ul>
+<li>Understand and use the <strong>language of probability</strong>:
+<ul>
+<li>Event, outcome, sample space, likely, certain, impossible</li>
+</ul></li>
+<li>Use a <strong>probability scale</strong> from 0 to 1</li>
+<li>Know that: [ P() = ]</li>
+<li>List all outcomes for one or two events using:
+<ul>
+<li>Tables</li>
+<li>Lists</li>
+<li>Sample space diagrams</li>
+</ul></li>
+<li>Calculate probabilities of:
+<ul>
+<li>Single events</li>
+<li><strong>Mutually exclusive</strong> events: [ P(A B) = P(A) + P(B) ]</li>
+<li><strong>Complementary</strong> events: [ P(A’) = 1 - P(A) ]</li>
+</ul></li>
+<li>Estimate probabilities using relative frequency from experimental data</li>
+<li>Use Venn diagrams to:
+<ul>
+<li>Represent sets and events</li>
+<li>Calculate probabilities (e.g.&nbsp;union, intersection)</li>
+</ul></li>
+<li>(Higher Tier) Use <strong>tree diagrams</strong> to:
+<ul>
+<li>Calculate probabilities of successive independent or dependent events</li>
+</ul></li>
+<li>(Higher Tier) Understand and calculate <strong>conditional probability</strong>:
+<ul>
+<li>E.g. choosing two objects <strong>without replacement</strong></li>
+</ul></li>
+<li>Calculate <strong>expected frequency</strong>: [ = ]</li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

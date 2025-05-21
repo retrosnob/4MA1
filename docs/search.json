@@ -4,7 +4,7 @@
     "href": "vectors.html",
     "title": "Vectors",
     "section": "",
-    "text": "A vector is a quantity with direction as well as magnitude (length), especially as used in determining the position of one point in space relative to another a point.\n\n\n\nPoints on a coordinate plane\n\n\nThe position vector of a point is the vector from the origin to that point. The position vector of point P is \\(\\begin{pmatrix}1 \\\\3\\end{pmatrix}\\). We write \\(\\vec{OP} = \\begin{pmatrix}1 \\\\3\\end{pmatrix}\\).\nVectors written in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\) are called column vectors.\nCheck your understanding:\n\nWhat is the position vector of Q written as a column vector?\nWhat is the vector \\(\\vec{PQ}\\) as a column vector?\nHow about \\(\\vec{QP}\\)?\nIf the vector \\(\\vec{AB}\\) is \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\), then what is the vector \\(\\vec{BA}\\)?\n\n\n\n\nYou can think of a vector as an arrow. Like an arrow, a vector has magnitude (length) and direction.\nNote that in the following diagram, all the arrows represent the same vector, ie \\(\\begin{pmatrix}4\\\\3\\end{pmatrix}\\).\n\n\n\nSame arrow vectors\n\n\nCheck your understanding:\n\nWhat is the magnitude of the vector in the diagram above?\nWhat is the magnitude of the vector \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)?\nIn general, what technique do you use to find the magnitude of a vector?\n\n\n\n\nYou can add two vectors by adding their components:\n\\(\\begin{pmatrix}x_1\\\\y_1\\end{pmatrix} + \\begin{pmatrix}x_2\\\\y_2\\end{pmatrix} = \\begin{pmatrix}x_1+x_2\\\\y_1+y_2\\end{pmatrix}\\)\nWhat is \\(\\vec{OP} + \\vec{OQ}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)?\n\n\n\nYou can multiply a vector by a number by multiplying its components by that number:\n\\(k\\begin{pmatrix}x\\\\y\\end{pmatrix} = \\begin{pmatrix}kx\\\\ky\\end{pmatrix}\\)\n\n\n\nUsually in GCSE questions, we will not get an xy-coordinate plane to work with. Instead, we will be given names for some position vectors, and we will need to work out other vectors in terms of those vectors.\n\n\n\nVector parallelogram\n\n\nIn the diagram:\n\\(\\vec{OP} = \\mathbf{a}\\)\n\\(\\vec{OR} = \\mathbf{b}\\)\nGiven that OPRQ is a parallelogram, write down the following in terms of a and b:\n\n\\(\\vec{PR}\\)\n\\(\\vec{QR}\\)\n\\(\\vec{OR}\\)\n\\(\\vec{RP}\\)\n\\(\\vec{RQ}\\)\n\\(\\vec{PQ}\\)\n\\(\\vec{QP}\\)\n\n\n\n\nQuestion 1\n\n\n\nVector as an arrow question\n\n\nDraw the vector -2a on the grid.\nQuestion 2\nGiven that\n\\(\\vec{AB} = \\begin{pmatrix}2 \\\\3\\end{pmatrix}\\) and \\(\\vec{BC} = \\begin{pmatrix}5 \\\\-2\\end{pmatrix}\\)\nCalculate \\(\\vec{CA}\\) as a column vector.\nQuestion 3\nGiven that\n$\\vec{AC} = \\begin{pmatrix}-21 \\\\15\\end{pmatrix}$\n\nB is the point on AC such that AB:BC = 1:2\nCalculate \\(\\vec{AB}\\) as a column vector.",
+    "text": "A vector is a quantity with direction as well as magnitude (length), especially as used in determining the position of one point in space relative to another a point.\n\n\n\nPoints on a coordinate plane\n\n\nThe position vector of a point is the vector from the origin to that point. The position vector of point P is \\(\\begin{pmatrix}1 \\\\3\\end{pmatrix}\\). We write \\(\\vec{OP} = \\begin{pmatrix}1 \\\\3\\end{pmatrix}\\).\nVectors written in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\) are called column vectors.\nCheck your understanding:\n\nWhat is the position vector of Q written as a column vector?\nWhat is the vector \\(\\vec{PQ}\\) as a column vector?\nHow about \\(\\vec{QP}\\)?\nIf the vector \\(\\vec{AB}\\) is \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\), then what is the vector \\(\\vec{BA}\\)?\n\n\n\n\nYou can think of a vector as an arrow. Like an arrow, a vector has magnitude (length) and direction.\nNote that in the following diagram, all the arrows represent the same vector, ie \\(\\begin{pmatrix}4\\\\3\\end{pmatrix}\\).\n\n\n\nSame arrow vectors\n\n\nCheck your understanding:\n\nWhat is the magnitude of the vector in the diagram above?\nWhat is the magnitude of the vector \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)?\nIn general, what technique do you use to find the magnitude of a vector?\n\n\n\n\nYou can add two vectors by adding their components:\n\\(\\begin{pmatrix}x_1\\\\y_1\\end{pmatrix} + \\begin{pmatrix}x_2\\\\y_2\\end{pmatrix} = \\begin{pmatrix}x_1+x_2\\\\y_1+y_2\\end{pmatrix}\\)\nWith reference to the first diagram, what is \\(\\vec{OP} + \\vec{OQ}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)?\n\n\n\nYou can multiply a vector by a number by multiplying its components by that number:\n\\(k\\begin{pmatrix}x\\\\y\\end{pmatrix} = \\begin{pmatrix}kx\\\\ky\\end{pmatrix}\\)\n\n\n\nUsually in GCSE questions, we will not get an xy-coordinate plane to work with. Instead, we will be given names for some position vectors, and we will need to work out other vectors in terms of those vectors.\n\n\n\nVector parallelogram\n\n\nIn the diagram:\n\\(\\vec{OP} = \\mathbf{a}\\)\n\\(\\vec{OR} = \\mathbf{b}\\)\nGiven that OPRQ is a parallelogram, write down the following in terms of a and b:\n\n\\(\\vec{PR}\\)\n\\(\\vec{QR}\\)\n\\(\\vec{OR}\\)\n\\(\\vec{RP}\\)\n\\(\\vec{RQ}\\)\n\\(\\vec{PQ}\\)\n\\(\\vec{QP}\\)\n\n\n\n\nQuestion 1\n\n\n\nVector as an arrow question\n\n\nDraw the vector -2a on the grid.\nQuestion 2\nGiven that\n\\(\\vec{AB} = \\begin{pmatrix}2 \\\\3\\end{pmatrix}\\) and \\(\\vec{BC} = \\begin{pmatrix}5 \\\\-2\\end{pmatrix}\\)\nCalculate \\(\\vec{CA}\\) as a column vector.\nQuestion 3\nGiven that\n$\\vec{AC} = \\begin{pmatrix}-21 \\\\15\\end{pmatrix}$\n\nB is the point on AC such that AB:BC = 1:2\nCalculate \\(\\vec{AB}\\) as a column vector.\n\n\n\nCombinations of vectors.\nParameters to indicate a “certain amount of a vector”.\nWhat it means to be parallel.\nWhat it means to be a “in a straight line”.",
     "crumbs": [
       "Vectors"
     ]
@@ -34,7 +34,7 @@
     "href": "vectors.html#adding-vectors",
     "title": "Vectors",
     "section": "",
-    "text": "You can add two vectors by adding their components:\n\\(\\begin{pmatrix}x_1\\\\y_1\\end{pmatrix} + \\begin{pmatrix}x_2\\\\y_2\\end{pmatrix} = \\begin{pmatrix}x_1+x_2\\\\y_1+y_2\\end{pmatrix}\\)\nWhat is \\(\\vec{OP} + \\vec{OQ}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)?",
+    "text": "You can add two vectors by adding their components:\n\\(\\begin{pmatrix}x_1\\\\y_1\\end{pmatrix} + \\begin{pmatrix}x_2\\\\y_2\\end{pmatrix} = \\begin{pmatrix}x_1+x_2\\\\y_1+y_2\\end{pmatrix}\\)\nWith reference to the first diagram, what is \\(\\vec{OP} + \\vec{OQ}\\) in the form \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)?",
     "crumbs": [
       "Vectors"
     ]
@@ -70,11 +70,401 @@
     ]
   },
   {
+    "objectID": "vectors.html#more-advanced-vectors",
+    "href": "vectors.html#more-advanced-vectors",
+    "title": "Vectors",
+    "section": "",
+    "text": "Combinations of vectors.\nParameters to indicate a “certain amount of a vector”.\nWhat it means to be parallel.\nWhat it means to be a “in a straight line”.",
+    "crumbs": [
+      "Vectors"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "4MA1",
     "section": "",
-    "text": "Concise notes and exercises for Edexcel 4MA1 IGCSE Mathematics.",
+    "text": "This syllabus combines Foundation and Higher Tier content.\n\n\n\nStudents should be taught to:\n\nUnderstand and use integers (positive, negative and zero)\nUnderstand place value\nUse directed numbers in practical situations (e.g. temperatures)\nOrder integers\nUse the four rules of addition, subtraction, multiplication and division\nUse brackets and the hierarchy of operations\nUse the terms “odd”, “even”, “prime numbers”, “factors” and “multiples”\nIdentify prime factors, common factors and common multiples\n\n\n\n\n\nStudents should be taught to:\n\nUnderstand and use equivalent fractions, simplifying a fraction by cancelling common factors: [ = ]\nUnderstand and use mixed numbers and vulgar fractions\nIdentify common denominators\nOrder fractions and calculate a given fraction of a quantity\nExpress a number as a fraction of another number\nUse common denominators to add and subtract fractions and mixed numbers: [ + , - ]\nConvert a fraction to a decimal or a percentage: [ = 0.6 = 60%, = 0. = 44.% ]\nUnderstand and use unit fractions as multiplicative inverses: [ = ]\nMultiply and divide fractions and mixed numbers: [ , ]\n\n\n\n\n\nStudents should be taught to:\n\nUse decimal notation\nUnderstand place value\nOrder decimals\nConvert decimals to fractions and percentages (terminating decimals only)\nRecognise that a terminating decimal is a fraction: [ 0.65 = = ]\nConvert recurring decimals into fractions (Higher Tier): [ 0. = , . = = ]\n\n\n\n\n\nStudents should be taught to:\n\nIdentify square and cube numbers\nCalculate squares, square roots, cubes and cube roots\nUse index notation and index laws for multiplication and division of positive and negative integer powers, including zero: [ a^0 = 1, a^m a^n = a^{m+n}, = a^{m-n} ]\nExpress integers as a product of powers of prime factors: [ 720 = 2^4 ^2 ]\nFind HCF and LCM using prime factor form\nUnderstand the meaning of surds (Higher Tier)\nManipulate surds, including rationalising a denominator (Higher Tier): [ + = 2 + 4 = 6 ] [ = ]\nUse index laws to simplify and evaluate expressions involving integer, fractional and negative powers: [ 25^{1/2} = 5, ^{-1/3} = ]\n\n\n\n\n\nStudents should be taught to:\n\nUnderstand the definition of a set\nUse the set notation: [ , , , , , , E ]\nUnderstand the universal set and the empty set\nUnderstand and use the complement of a set: [ A’ ]\nUse Venn diagrams to represent sets\nUnderstand and use sets defined in algebraic terms (Higher Tier)\nUse notation ( n(A) ) for the number of elements in set ( A ) (Higher Tier)\nUse sets in practical contexts (Higher Tier)\n\n\n\n\n\nStudents should be taught to:\n\nUnderstand that “percentage” means “number of parts per 100”\nExpress a number as a percentage of another\nExpress percentages as fractions and decimals\nUnderstand percentages as operators: [ = = 18 ]\nSolve percentage problems including increase and decrease\nUse reverse percentages: “An item costs ( 17.50 ) after a 30% reduction. What was the original price?”\nUse compound interest and depreciation (Higher Tier)\nUse repeated percentage change (Higher Tier)\n\n\n\n\n\nStudents should be taught to:\n\nUse ratio notation and reduce to simplest form\nConvert between ratios and fractions\nDivide a quantity in a given ratio\nUse proportion to find unknown quantities\nSolve problems involving direct and inverse proportion (Higher Tier)\nInterpret and solve word problems involving ratio and proportion, including maps and scale diagrams\n\n\n\n\n\nStudents should be taught to:\n\nRound numbers to powers of 10, significant figures, and decimal places\nIdentify upper and lower bounds for rounded numbers\nUse estimation to evaluate approximations: Round values to 1 significant figure\nSolve problems involving bounds (Higher Tier)\n\n\n\n\n\nStudents should be taught to:\n\nUnderstand and use standard form: [ a ^n 1 a &lt; 10, ; n ]\nConvert numbers to and from standard form\nPerform calculations with numbers in standard form\n\n\n\n\n\nStudents should be taught to:\n\nApply number skills in real-life contexts: personal, domestic, community\nUse standard units of mass, length, area, volume and capacity (metric only)\nPerform time calculations and currency conversions\n\n\n\n\n\nStudents should be taught to:\n\nUse a scientific calculator effectively for a range of calculations",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#integers",
+    "href": "index.html#integers",
+    "title": "4MA1",
+    "section": "",
+    "text": "Students should be taught to:\n\nUnderstand and use integers (positive, negative and zero)\nUnderstand place value\nUse directed numbers in practical situations (e.g. temperatures)\nOrder integers\nUse the four rules of addition, subtraction, multiplication and division\nUse brackets and the hierarchy of operations\nUse the terms “odd”, “even”, “prime numbers”, “factors” and “multiples”\nIdentify prime factors, common factors and common multiples",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#fractions",
+    "href": "index.html#fractions",
+    "title": "4MA1",
+    "section": "",
+    "text": "Students should be taught to:\n\nUnderstand and use equivalent fractions, simplifying a fraction by cancelling common factors: [ = ]\nUnderstand and use mixed numbers and vulgar fractions\nIdentify common denominators\nOrder fractions and calculate a given fraction of a quantity\nExpress a number as a fraction of another number\nUse common denominators to add and subtract fractions and mixed numbers: [ + , - ]\nConvert a fraction to a decimal or a percentage: [ = 0.6 = 60%, = 0. = 44.% ]\nUnderstand and use unit fractions as multiplicative inverses: [ = ]\nMultiply and divide fractions and mixed numbers: [ , ]",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#decimals",
+    "href": "index.html#decimals",
+    "title": "4MA1",
+    "section": "",
+    "text": "Students should be taught to:\n\nUse decimal notation\nUnderstand place value\nOrder decimals\nConvert decimals to fractions and percentages (terminating decimals only)\nRecognise that a terminating decimal is a fraction: [ 0.65 = = ]\nConvert recurring decimals into fractions (Higher Tier): [ 0. = , . = = ]",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#powers-and-roots",
+    "href": "index.html#powers-and-roots",
+    "title": "4MA1",
+    "section": "",
+    "text": "Students should be taught to:\n\nIdentify square and cube numbers\nCalculate squares, square roots, cubes and cube roots\nUse index notation and index laws for multiplication and division of positive and negative integer powers, including zero: [ a^0 = 1, a^m a^n = a^{m+n}, = a^{m-n} ]\nExpress integers as a product of powers of prime factors: [ 720 = 2^4 ^2 ]\nFind HCF and LCM using prime factor form\nUnderstand the meaning of surds (Higher Tier)\nManipulate surds, including rationalising a denominator (Higher Tier): [ + = 2 + 4 = 6 ] [ = ]\nUse index laws to simplify and evaluate expressions involving integer, fractional and negative powers: [ 25^{1/2} = 5, ^{-1/3} = ]",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#set-language-and-notation",
+    "href": "index.html#set-language-and-notation",
+    "title": "4MA1",
+    "section": "",
+    "text": "Students should be taught to:\n\nUnderstand the definition of a set\nUse the set notation: [ , , , , , , E ]\nUnderstand the universal set and the empty set\nUnderstand and use the complement of a set: [ A’ ]\nUse Venn diagrams to represent sets\nUnderstand and use sets defined in algebraic terms (Higher Tier)\nUse notation ( n(A) ) for the number of elements in set ( A ) (Higher Tier)\nUse sets in practical contexts (Higher Tier)",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#percentages",
+    "href": "index.html#percentages",
+    "title": "4MA1",
+    "section": "",
+    "text": "Students should be taught to:\n\nUnderstand that “percentage” means “number of parts per 100”\nExpress a number as a percentage of another\nExpress percentages as fractions and decimals\nUnderstand percentages as operators: [ = = 18 ]\nSolve percentage problems including increase and decrease\nUse reverse percentages: “An item costs ( 17.50 ) after a 30% reduction. What was the original price?”\nUse compound interest and depreciation (Higher Tier)\nUse repeated percentage change (Higher Tier)",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#ratio-and-proportion",
+    "href": "index.html#ratio-and-proportion",
+    "title": "4MA1",
+    "section": "",
+    "text": "Students should be taught to:\n\nUse ratio notation and reduce to simplest form\nConvert between ratios and fractions\nDivide a quantity in a given ratio\nUse proportion to find unknown quantities\nSolve problems involving direct and inverse proportion (Higher Tier)\nInterpret and solve word problems involving ratio and proportion, including maps and scale diagrams",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#degree-of-accuracy",
+    "href": "index.html#degree-of-accuracy",
+    "title": "4MA1",
+    "section": "",
+    "text": "Students should be taught to:\n\nRound numbers to powers of 10, significant figures, and decimal places\nIdentify upper and lower bounds for rounded numbers\nUse estimation to evaluate approximations: Round values to 1 significant figure\nSolve problems involving bounds (Higher Tier)",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#standard-form",
+    "href": "index.html#standard-form",
+    "title": "4MA1",
+    "section": "",
+    "text": "Students should be taught to:\n\nUnderstand and use standard form: [ a ^n 1 a &lt; 10, ; n ]\nConvert numbers to and from standard form\nPerform calculations with numbers in standard form",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#applying-number",
+    "href": "index.html#applying-number",
+    "title": "4MA1",
+    "section": "",
+    "text": "Students should be taught to:\n\nApply number skills in real-life contexts: personal, domestic, community\nUse standard units of mass, length, area, volume and capacity (metric only)\nPerform time calculations and currency conversions",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#electronic-calculators",
+    "href": "index.html#electronic-calculators",
+    "title": "4MA1",
+    "section": "",
+    "text": "Students should be taught to:\n\nUse a scientific calculator effectively for a range of calculations",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#use-of-symbols",
+    "href": "index.html#use-of-symbols",
+    "title": "4MA1",
+    "section": "2.1 Use of Symbols",
+    "text": "2.1 Use of Symbols\nStudents should be taught to:\n\nUnderstand that symbols may represent numbers or variables in expressions, equations, or formulae\nUnderstand that algebraic expressions follow the generalised rules of arithmetic\nUse index notation for positive, negative, and zero integer powers: [ a^3 = a a a, a^0 = 1, a^{-1} = ]\nUse index laws: [ x^m x^n = x^{m+n}, = x^{m-n}, (xm)n = x^{mn} ]",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#algebraic-manipulation",
+    "href": "index.html#algebraic-manipulation",
+    "title": "4MA1",
+    "section": "2.2 Algebraic Manipulation",
+    "text": "2.2 Algebraic Manipulation\nStudents should be taught to:\n\nEvaluate expressions by substituting values into variables\nCollect like terms\nMultiply a single term over a bracket: [ 3(x + 5) = 3x + 15 ]\nFactorise simple expressions by taking out common factors: [ 28xy + 12y = 4y(7x + 3) ]\nExpand the product of two linear expressions: [ (x + 4)(x - 2) = x^2 + 2x - 8 ]\nUnderstand and factorise quadratic expressions of the form: [ x^2 + bx + c ]\n(Higher Tier) Expand the product of three linear expressions: [ (x + 2)(x - 1)(x + 3) ]\n(Higher Tier) Factorise complex quadratics (e.g. ( 6x^2 - 5x - 6 ))\n(Higher Tier) Manipulate algebraic fractions and simplify: [ + ]\n(Higher Tier) Complete the square: [ x^2 + 6x - 1 = (x + 3)^2 - 10 ]\n(Higher Tier) Use algebra to construct and support proofs",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#expressions-and-formulae",
+    "href": "index.html#expressions-and-formulae",
+    "title": "4MA1",
+    "section": "2.3 Expressions and Formulae",
+    "text": "2.3 Expressions and Formulae\nStudents should be taught to:\n\nUnderstand that letters may represent unknowns or variables\nUse correct algebraic notation\nSubstitute values into expressions and formulae including negative, fractional, and decimal values\nUse and construct formulae from contexts (e.g. area, physics)\nDerive a formula from a description or diagram\nChange the subject of a formula (where the subject appears once): [ A = r^2 r = , v = u + at t = ]\n(Higher Tier) Rearrange more complex formulae, including those where the subject appears more than once or appears as a power",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#linear-equations",
+    "href": "index.html#linear-equations",
+    "title": "4MA1",
+    "section": "2.4 Linear Equations",
+    "text": "2.4 Linear Equations\nStudents should be taught to:\n\nSolve linear equations with the unknown on one or both sides: [ 5x + 8 = 12, (x - 3) = 5x - 8 ]\nSolve linear equations with fractional coefficients: [ = 3 ]\nSet up and solve simple linear equations from word problems: E.g. Angles in a triangle add to 180°: [ a + (a + 10) + (a + 20) = 180 ]",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#proportion",
+    "href": "index.html#proportion",
+    "title": "4MA1",
+    "section": "2.5 Proportion",
+    "text": "2.5 Proportion\n\n(Higher Tier) Set up equations from proportional relationships: [ y x^2 y = kx^2 ]",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#simultaneous-equations",
+    "href": "index.html#simultaneous-equations",
+    "title": "4MA1",
+    "section": "2.6 Simultaneous Equations",
+    "text": "2.6 Simultaneous Equations\nStudents should be taught to:\n\nSolve a pair of simultaneous linear equations algebraically (elimination or substitution) [ 2x + 3y = 17, 3x - 5y = 35 ]\n(Higher Tier) Solve simultaneous equations involving one linear and one quadratic equation: [ y = 2x - 11, x^2 + y^2 = 25 ]\n(Higher Tier) Interpret simultaneous equations graphically as points of intersection",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#quadratic-equations",
+    "href": "index.html#quadratic-equations",
+    "title": "4MA1",
+    "section": "2.7 Quadratic Equations",
+    "text": "2.7 Quadratic Equations\nStudents should be taught to:\n\nSolve quadratic equations by factorising: [ x^2 + x - 30 = 0 (x + 6)(x - 5) = 0 ]\n(Higher Tier) Solve quadratics using the quadratic formula: [ x = ]\n(Higher Tier) Solve quadratics by completing the square\n(Higher Tier) Form and solve quadratics from contexts\n(Higher Tier) Solve a quadratic and linear system of equations",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#inequalities",
+    "href": "index.html#inequalities",
+    "title": "4MA1",
+    "section": "2.8 Inequalities",
+    "text": "2.8 Inequalities\nStudents should be taught to:\n\nUse inequality symbols: ( &gt;, &lt;, , )\nRepresent linear inequalities on a number line: [ 1 &lt; x ]\nSolve inequalities such as: [ 3x - 2 &lt; 10 x &lt; 4, - x x ]\nSolve compound inequalities: [ 3 &lt; x + 2 &lt; x ]\nRepresent linear inequalities in two variables on Cartesian graphs: Shade regions defined by: [ x , y , x + y ]\n(Higher Tier) Solve and represent quadratic inequalities on number lines: [ x^2 - 4 &lt; 0 &lt; x &lt; 2 ]\n(Higher Tier) Identify regions defined by multiple inequalities on graphs",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#sequences",
+    "href": "index.html#sequences",
+    "title": "4MA1",
+    "section": "3.1 Sequences",
+    "text": "3.1 Sequences\nStudents should be taught to:\n\nGenerate terms of a sequence using:\n\nTerm-to-term rules\nPosition-to-term rules\n\nIdentify and continue integer sequences including:\n\nOdd and even numbers\nSquares, multiples and powers\n\nUse linear expressions to describe the nth term of an arithmetic sequence: [ 2, 5, 8, 11, nth = 3n - 1 ]\nRecognise and use:\n\nArithmetic sequences\nGeometric sequences (Higher Tier)\nQuadratic sequences (Higher Tier)\n\nKnow and use:\n\nFirst term ( a )\nCommon difference ( d ) in arithmetic sequences\n\nFind the sum of the first ( n ) terms of an arithmetic series (Higher Tier): [ S_n = (2a + (n - 1)d) ]",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#function-notation-higher-tier",
+    "href": "index.html#function-notation-higher-tier",
+    "title": "4MA1",
+    "section": "3.2 Function Notation (Higher Tier)",
+    "text": "3.2 Function Notation (Higher Tier)\nStudents should be taught to:\n\nUnderstand the concept of a function as a mapping between two sets\nUse function notation: [ f(x) = 3x + 1, f: x 3x + 1 ]\nUnderstand domain and range\nIdentify values to exclude from the domain (e.g. for ( f(x) = ), ( x ))\nFind composite functions ( fg(x) )\nFind inverse functions ( f^{-1}(x) )",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#graphs",
+    "href": "index.html#graphs",
+    "title": "4MA1",
+    "section": "3.3 Graphs",
+    "text": "3.3 Graphs\nStudents should be taught to:\n\nInterpret and draw information from a range of linear and non-linear graphs, including:\n\nDistance-time graphs\nSpeed-time graphs\n\nUse Cartesian coordinates in all four quadrants\nPlot points ( (x, y) ) and locate them on the plane\nDetermine coordinates of points from geometric descriptions\nFind the midpoint of a line segment: [ (x_1, y_1) (x_2, y_2) = (, ) ]\nDraw and interpret conversion graphs, including currency conversions\nCalculate the gradient of a straight line: [ m = ]\nUnderstand equations of straight lines in the form ( y = mx + c ), where:\n\n( m ) is the gradient\n( c ) is the y-intercept\n\nWrite the equation of a straight line from its graph\nRecognise and plot graphs of:\n\nLinear functions ( y = mx + c )\nVertical and horizontal lines ( x = a, y = b )\nQuadratic functions ( y = ax^2 + bx + c )\nSimple cubic and reciprocal functions (Higher Tier)\n\nComplete tables of values for functions\nIdentify and draw:\n\nParallel lines (same gradient)\nPerpendicular lines (negative reciprocal gradients)\n\n(Higher Tier) Plot and interpret:\n\nCubic functions: ( y = x^3 )\nReciprocal functions: ( y = )\n\n(Higher Tier) Find the intersection of two graphs (linear and non-linear): Solve ( f(x) = g(x) ) graphically or algebraically\n(Higher Tier) Apply transformations to graphs of functions: [ y = f(x) + a, y = f(x + a), y = af(x), y = f(ax) ]",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#calculus-higher-tier",
+    "href": "index.html#calculus-higher-tier",
+    "title": "4MA1",
+    "section": "3.4 Calculus (Higher Tier)",
+    "text": "3.4 Calculus (Higher Tier)\nStudents should be taught to:\n\nUnderstand the concept of a variable rate of change\nDifferentiate simple functions: [ x^n = nx^{n-1} ]\nUse differentiation to:\n\nFind gradients of curves\nCalculate instantaneous rates of change\nFind and classify stationary points\n\nIdentify maxima and minima from graphs\nApply calculus to:\n\nSimple kinematics (e.g. ( s(t) v(t) a(t) ))\nPractical problems involving rate of change",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#angles-lines-and-triangles",
+    "href": "index.html#angles-lines-and-triangles",
+    "title": "4MA1",
+    "section": "4.1 Angles, Lines and Triangles",
+    "text": "4.1 Angles, Lines and Triangles\nStudents should be taught to:\n\nDistinguish between acute, obtuse, reflex and right angles\nUse angle facts:\n\nAngles on a straight line sum to (180^)\nAngles at a point sum to (360^)\nVertically opposite angles are equal\n\nUse properties of angles with parallel lines:\n\nAlternate angles are equal\nCorresponding angles are equal\nAllied (co-interior) angles sum to (180^)\n\nUnderstand the exterior angle and angle sum properties of triangles:\n\nThe exterior angle equals the sum of the opposite interior angles\nThe angles in a triangle sum to (180^)\n\nUse properties of:\n\nEquilateral, isosceles, and right-angled triangles\nCongruent triangles",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#polygons",
+    "href": "index.html#polygons",
+    "title": "4MA1",
+    "section": "4.2 Polygons",
+    "text": "4.2 Polygons\nStudents should be taught to:\n\nName and recognise common polygons:\n\nTriangle, quadrilateral, pentagon, hexagon, octagon, etc.\n\nUnderstand and use the angle sum of polygons: [ = (n - 2) ^ ]\nCalculate interior and exterior angles of regular polygons: [ = , = 180^- ]\nUse properties of quadrilaterals:\n\nParallelogram, rectangle, rhombus, trapezium, kite, square\n\nUnderstand congruence: same shape and size",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#symmetry",
+    "href": "index.html#symmetry",
+    "title": "4MA1",
+    "section": "4.3 Symmetry",
+    "text": "4.3 Symmetry\nStudents should be taught to:\n\nIdentify lines of symmetry and order of rotational symmetry for 2D shapes",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#measures",
+    "href": "index.html#measures",
+    "title": "4MA1",
+    "section": "4.4 Measures",
+    "text": "4.4 Measures\nStudents should be taught to:\n\nInterpret scales and read measuring instruments\nCalculate time intervals using 12-hour and 24-hour clocks\nEstimate a range of measures\nUse three-figure bearings\nMeasure angles to the nearest degree\nUse the formula: [ = ]\nUse compound measures (Higher Tier):\n\nDensity = mass/volume\nPressure = force/area",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#construction",
+    "href": "index.html#construction",
+    "title": "4MA1",
+    "section": "4.5 Construction",
+    "text": "4.5 Construction\nStudents should be taught to:\n\nMeasure and draw lines to the nearest mm\nConstruct triangles and other 2D shapes using ruler, protractor, and compasses\nSolve problems using scale drawings\nUse straight edge and compasses to:\n\nConstruct the perpendicular bisector of a line\nConstruct the bisector of an angle",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#circle-properties",
+    "href": "index.html#circle-properties",
+    "title": "4MA1",
+    "section": "4.6 Circle Properties",
+    "text": "4.6 Circle Properties\nStudents should be taught to:\n\nKnow and use terms: centre, radius, chord, diameter, circumference, arc, sector, segment, tangent\nUnderstand circle theorems (Higher Tier):\n\nAngle at centre = 2 × angle at circumference\nAngle in semicircle = 90°\nAngles in same segment are equal\nOpposite angles in cyclic quadrilateral sum to 180°\nAlternate segment theorem\nTwo tangents from a point are equal in length\nTangent is perpendicular to radius at point of contact\nA line from the centre that is perpendicular to a chord bisects the chord",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#geometrical-reasoning",
+    "href": "index.html#geometrical-reasoning",
+    "title": "4MA1",
+    "section": "4.7 Geometrical Reasoning",
+    "text": "4.7 Geometrical Reasoning\nStudents should be taught to:\n\nGive reasons for angle values using appropriate geometric properties and theorems",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#trigonometry-and-pythagoras-theorem",
+    "href": "index.html#trigonometry-and-pythagoras-theorem",
+    "title": "4MA1",
+    "section": "4.8 Trigonometry and Pythagoras’ Theorem",
+    "text": "4.8 Trigonometry and Pythagoras’ Theorem\nStudents should be taught to:\n\nUse Pythagoras’ Theorem in 2D: [ a^2 + b^2 = c^2 ]\nUse trigonometric ratios in right-angled triangles: [ = , = , = ]\n(Higher Tier) Use sine, cosine and tangent for obtuse angles\nSolve problems involving angles of elevation and depression\n(Higher Tier) Use sine and cosine rules: [ = = , a^2 = b^2 + c^2 - 2bcA ]\n(Higher Tier) Use: [ = ab C ]\n(Higher Tier) Use trigonometry and Pythagoras’ Theorem in 3D\n(Higher Tier) Find the angle between a line and a plane",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#mensuration",
+    "href": "index.html#mensuration",
+    "title": "4MA1",
+    "section": "4.9 Mensuration",
+    "text": "4.9 Mensuration\nStudents should be taught to:\n\nConvert between metric units, including square and cubic units\nCalculate perimeters and areas of:\n\nRectangles, triangles, parallelograms, trapezia, circles, semicircles\n\nCalculate: [ = (a + b)h ] [ = r^2, = 2r ]\nCalculate volumes and surface areas of:\n\nCubes, cuboids, prisms, cylinders\n\n(Higher Tier) Calculate volume and surface area of:\n\nSpheres, cones, pyramids\n( V = r^3, V = r^2 h )\n\nConvert between cm³, m³ and litres",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#similarity",
+    "href": "index.html#similarity",
+    "title": "4MA1",
+    "section": "4.10 Similarity",
+    "text": "4.10 Similarity\nStudents should be taught to:\n\nRecognise similar figures: same shape, different size\nUnderstand:\n\nCorresponding angles are equal\nCorresponding sides are in the same ratio\n\nUse scale factors for enlargement\n(Higher Tier) Use:\n\nArea scale factor = (length scale factor)²\nVolume scale factor = (length scale factor)³\n\nSolve problems using similarity",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#vectors-higher-tier",
+    "href": "index.html#vectors-higher-tier",
+    "title": "4MA1",
+    "section": "5.1 Vectors (Higher Tier)",
+    "text": "5.1 Vectors (Higher Tier)\nStudents should be taught to:\n\nUnderstand that a vector has both magnitude and direction\nUse vector notation, including:\n\nColumn vectors: (\n\\[\\begin{bmatrix} x \\\\ y \\end{bmatrix}\\]\n)\nDirected line segments: ( ) or ( )\n\nPerform operations with vectors:\n\nAdd and subtract vectors\nMultiply vectors by scalar quantities: [ 3\n\\[\\begin{bmatrix} 2 \\\\ -1 \\end{bmatrix}\\]\n=\n\\[\\begin{bmatrix} 6 \\\\ -3 \\end{bmatrix}\\]\n]\n\nCalculate the magnitude (modulus) of a vector: [ |\n\\[\\begin{bmatrix} x \\\\ y \\end{bmatrix}\\]\n| = ]\nUse vectors to represent geometric information and solve problems\nUse vector methods for geometrical proofs (e.g. show points are collinear, midpoints, parallel vectors)",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#transformation-geometry",
+    "href": "index.html#transformation-geometry",
+    "title": "4MA1",
+    "section": "5.2 Transformation Geometry",
+    "text": "5.2 Transformation Geometry\nStudents should be taught to:\n\nUnderstand and perform the four transformations:\n\nTranslation: described using a vector\nReflection: in a given line (e.g. ( y = x,; x = -1 ))\nRotation: specified by centre, angle and direction\nEnlargement: with centre and scale factor (including fractional and negative)\n\nUse column vectors to describe translations: [\n\\[\\begin{bmatrix} 3 \\\\ -2 \\end{bmatrix}\\]\n]\nConstruct mirror lines and reflect shapes across them\nUnderstand that translations, rotations, and reflections preserve:\n\nLength\nAngle\nShape\nTherefore, images are congruent to the original\n\nUnderstand the properties of enlargements:\n\nAngles are preserved\nLengths are multiplied by the scale factor\n\nPerform enlargements with or without a given centre\nIdentify and describe transformations (including combinations)\nUse correct mathematical language when describing transformations",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#graphical-representation-of-data",
+    "href": "index.html#graphical-representation-of-data",
+    "title": "4MA1",
+    "section": "6.1 Graphical Representation of Data",
+    "text": "6.1 Graphical Representation of Data\nStudents should be taught to:\n\nUse and interpret various forms of data presentation:\n\nPictograms\nBar charts\nPie charts\nLine graphs\nTwo-way tables\n\nConstruct and interpret:\n\nFrequency tables\nCumulative frequency tables and diagrams (Higher Tier)\nHistograms for continuous data with unequal class widths (Higher Tier)\n\nIdentify and describe patterns and trends in graphical data",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#statistical-measures",
+    "href": "index.html#statistical-measures",
+    "title": "4MA1",
+    "section": "6.2 Statistical Measures",
+    "text": "6.2 Statistical Measures\nStudents should be taught to:\n\nUnderstand the concept of an average\nCalculate from a data list or frequency table:\n\nMean\nMedian\nMode\nRange\n\n(Higher Tier) Estimate the mean for grouped data using mid-interval values\nIdentify the modal class in grouped data\n(Higher Tier) Use cumulative frequency diagrams to:\n\nEstimate the median\nEstimate the interquartile range (IQR)\n\n(Higher Tier) Understand and use measures of spread:\n\nRange\nInterquartile range (IQR)\nStandard deviation (not calculated manually)\n\nCompare two distributions using:\n\nMeasures of central tendency\nMeasures of spread",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#probability",
+    "href": "index.html#probability",
+    "title": "4MA1",
+    "section": "6.3 Probability",
+    "text": "6.3 Probability\nStudents should be taught to:\n\nUnderstand and use the language of probability:\n\nEvent, outcome, sample space, likely, certain, impossible\n\nUse a probability scale from 0 to 1\nKnow that: [ P() = ]\nList all outcomes for one or two events using:\n\nTables\nLists\nSample space diagrams\n\nCalculate probabilities of:\n\nSingle events\nMutually exclusive events: [ P(A B) = P(A) + P(B) ]\nComplementary events: [ P(A’) = 1 - P(A) ]\n\nEstimate probabilities using relative frequency from experimental data\nUse Venn diagrams to:\n\nRepresent sets and events\nCalculate probabilities (e.g. union, intersection)\n\n(Higher Tier) Use tree diagrams to:\n\nCalculate probabilities of successive independent or dependent events\n\n(Higher Tier) Understand and calculate conditional probability:\n\nE.g. choosing two objects without replacement\n\nCalculate expected frequency: [ = ]",
     "crumbs": [
       "Home"
     ]
