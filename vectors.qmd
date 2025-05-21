@@ -107,6 +107,7 @@ Consider the following diagram from an IGCSE past paper.
 
 The question states
 
+:::{.callout}
 OPTR is a trapezium.
 
 $\vec{OP} = \mathbf{a}$
@@ -114,6 +115,7 @@ $\vec{OP} = \mathbf{a}$
 $\vec{PT} = \mathbf{b}$
 
 $\vec{OR} = 3\mathbf{b}$
+:::
 
 And then asks you to
 
