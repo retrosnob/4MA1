@@ -134,9 +134,9 @@ Find $\vec{OS}$ in terms of **a** and **b**.
 What does your answer tell you about the position of point S?
 
 :::{.callout-tip collapse="true"}
-**Hint**
+**Hint (click to reveal)**
 
-We can see that $\vec{OS} = \vec{OP} + $\vec{PS}$ so we just need to find 
+$\vec{OS} = \vec{OP} + \frac{1}{3}\vec{PS}$.
 :::
 
 
