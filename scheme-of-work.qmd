@@ -13,7 +13,7 @@ title: "Scheme of Work"
     </tr>
   </thead>
   <tbody>
-  <tr>
+  <tr style="border-top: 2px solid black; border-bottom: 2px solid black;">
     <td colspan=3>1M567</td>
   </tr>
   <tr>
@@ -61,8 +61,8 @@ title: "Scheme of Work"
     <td>1wk</td>
     <td>Revise for Novi End of Year Exam</td>
   </tr>
-  <tr>
-    <td colspan=3>2M45678</td>
+  <tr style="border-top: 2px solid black; border-bottom: 2px solid black;">
+    <td colspan=3 >2M45678</td>
   </tr>
   <tr>
     <td>Further Algebra</td>
@@ -139,7 +139,7 @@ title: "Scheme of Work"
     <td>0.5wk</td>
     <td>Bounds<br>incl. harder examples such as x/(y+z) and x/(y-z) etc -  may vary contents by sets<br></td>
   </tr>
-  <tr>
+  <tr style="border-top: 2px solid black; border-bottom: 2px solid black;">
     <td colspan=3>3M345678</td>
   </tr>
   <tr>
