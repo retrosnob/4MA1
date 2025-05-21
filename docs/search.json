@@ -284,7 +284,7 @@
     "href": "index.html#sequences",
     "title": "Edexcel IGCSE Mathematics A (4MA1)",
     "section": "3.1 Sequences",
-    "text": "3.1 Sequences\nStudents should be taught to:\n\nGenerate terms of a sequence using:\n\nTerm-to-term rules\nPosition-to-term rules\n\nIdentify and continue integer sequences including:\n\nOdd and even numbers\nSquares, multiples and powers\n\nUse linear expressions to describe the nth term of an arithmetic sequence: \\[\n2, 5, 8, 11, \\ldots \\quad \\text{has } nth \\text{ term } = 3n - 1\n\\]\nRecognise and use:\n\nArithmetic sequences\nGeometric sequences (Higher Tier)\nQuadratic sequences (Higher Tier)\n\nKnow and use:\n\nFirst term\\(a\\)\nCommon difference\\(d\\)in arithmetic sequences\n\nFind the sum of the first\\(n\\)terms of an arithmetic series (Higher Tier): \\[\nS_n = \\frac{n}{2} \\left(2a + (n - 1)d\\right)\n\\]",
+    "text": "3.1 Sequences\nStudents should be taught to:\n\nGenerate terms of a sequence using:\n\nTerm-to-term rules\nPosition-to-term rules\n\nIdentify and continue integer sequences including:\n\nOdd and even numbers\nSquares, multiples and powers\n\nUse linear expressions to describe the nth term of an arithmetic sequence: \\[\n2, 5, 8, 11, \\ldots \\quad \\text{has } nth \\text{ term } = 3n - 1\n\\]\nRecognise and use:\n\nArithmetic sequences\nGeometric sequences (Higher Tier)\nQuadratic sequences (Higher Tier)\n\nKnow and use:\n\nFirst term \\(a\\)\nCommon difference \\(d\\) in arithmetic sequences\n\nFind the sum of the first \\(n\\) terms of an arithmetic series (Higher Tier): \\[\nS_n = \\frac{n}{2} \\left(2a + (n - 1)d\\right)\n\\]",
     "crumbs": [
       "Home"
     ]

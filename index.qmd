@@ -387,14 +387,15 @@ Students should be taught to:
  $$
   2, 5, 8, 11, \ldots \quad \text{has } nth \text{ term } = 3n - 1
  $$
+
 - Recognise and use:
   - Arithmetic sequences
   - Geometric sequences (Higher Tier)
   - Quadratic sequences (Higher Tier)
 - Know and use:
-  - First term$a$
-  - Common difference$d$in arithmetic sequences
-- Find the sum of the first$n$terms of an arithmetic series (Higher Tier):
+  - First term $a$
+  - Common difference $d$ in arithmetic sequences
+- Find the sum of the first $n$ terms of an arithmetic series (Higher Tier):
  $$
   S_n = \frac{n}{2} \left(2a + (n - 1)d\right)
  $$
@@ -410,6 +411,7 @@ Students should be taught to:
  $$
   f(x) = 3x + 1, \quad f: x \mapsto 3x + 1
  $$
+
 - Understand domain and range
 - Identify values to exclude from the domain (e.g. for $f(x) = \frac{1}{x}$, $x \neq 0$)
 - Find composite functions $fg(x)$
@@ -431,11 +433,13 @@ Students should be taught to:
  $$
   \text{Midpoint of } (x_1, y_1) \text{ and } (x_2, y_2) = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)
  $$
+
 - Draw and interpret conversion graphs, including currency conversions
 - Calculate the gradient of a straight line:
  $$
   m = \frac{\text{change in } y}{\text{change in } x}
  $$
+
 - Understand equations of straight lines in the form $y = mx + c$, where:
   -$m$ is the gradient
   -$c$ is the y-intercept
@@ -470,6 +474,7 @@ Students should be taught to:
  $$
   \frac{d}{dx}x^n = nx^{n-1}
  $$
+
 - Use differentiation to:
   - Find gradients of curves
   - Calculate instantaneous rates of change
@@ -517,6 +522,7 @@ Students should be taught to:
  $$
   \text{Sum of interior angles} = (n - 2) \times 180^\circ
  $$
+
 - Calculate interior and exterior angles of regular polygons:
  $$
   \text{Exterior angle} = \frac{360^\circ}{n}, \quad \text{Interior angle} = 180^\circ - \text{Exterior angle}
