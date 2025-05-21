@@ -231,6 +231,7 @@ Students should be taught to:
   $$
 
 - (Higher Tier) Factorise complex quadratics (e.g. $ 6x^2 - 5x - 6 $)
+
 - (Higher Tier) Manipulate algebraic fractions and simplify:
   $$
   \frac{3}{x-2} + \frac{1}{x+1}
