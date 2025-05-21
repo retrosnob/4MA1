@@ -14,6 +14,9 @@ title: "Scheme of Work"
   </thead>
   <tbody>
   <tr>
+    <td colspan=3>1M567</td>
+  </tr>
+  <tr>
     <td>N2</td>
     <td>2wk</td>
     <td>Ratio and percentages<br><ul><li>Percentages definition, forward and backward calculation</li><li>Significant figures and rounding (recap when required in questions)</li><li>Compound interest and repeated percentage changes</li><li>Ratio of two and three quantities (including algebra problems)</li></ul></td>
@@ -59,9 +62,7 @@ title: "Scheme of Work"
     <td>Revise for Novi End of Year Exam</td>
   </tr>
   <tr>
-    <td>nan</td>
-    <td>nan</td>
-    <td>2M45678</td>
+    <td colspan=3>2M45678</td>
   </tr>
   <tr>
     <td>Further Algebra</td>
@@ -139,14 +140,12 @@ title: "Scheme of Work"
     <td>Bounds<br>incl. harder examples such as x/(y+z) and x/(y-z) etc -  may vary contents by sets<br></td>
   </tr>
   <tr>
-    <td>nan</td>
-    <td>nan</td>
-    <td>3M345678</td>
+    <td colspan=3>3M345678</td>
   </tr>
   <tr>
     <td>G8</td>
     <td>1.5wk</td>
-    <td>Circular functions<br><ul><li>Graphs of sin, cos and tan for any angle</li><li>Sine equations: sin(x)=0.6 type only, 0<x<180 degrees</li><li>Area of triangle = (1/2)ab*sin(C) and its application in finding the area of a segment</li><li>Sine and cosine rules</li><li>3 figure bearings</li></ul></td>
+    <td>Circular functions<br><ul><li>Graphs of sin, cos and tan for any angle</li><li>Sine equations: sin(x)=0.6 type only, 0&lt;x&lt;180 degrees</li><li>Area of triangle = (1/2)ab*sin(C) and its application in finding the area of a segment</li><li>Sine and cosine rules</li><li>3 figure bearings</li></ul></td>
   </tr>
   <tr>
     <td>A10</td>
