@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<head>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.7.31" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Scheme of Work – 4MA1</title>
@@ -24,7 +22,23 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-<!-- htmldependencies:E3FAD763 -->
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-5d2e30ad26079c1dae90a1fd11eba2b9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -53,26 +67,50 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css" />
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn"
-      data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" 
-      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
-      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <h1 class="quarto-secondary-nav-title no-breadcrumbs"></h1>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" role="link"
-        aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
-        onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./scheme-of-work.html">Scheme of Work</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -86,9 +124,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="/">
-      Contents
-      </a> 
+      <a href="./">Contents</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -100,29 +136,29 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/scheme-of-work.html" class="sidebar-item-text sidebar-link active">
+  <a href="./scheme-of-work.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Scheme of Work</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/vectors.html" class="sidebar-item-text sidebar-link">
+  <a href="./vectors.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vectors</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" ></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <div id="quarto-toc-target"></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -212,7 +248,7 @@ Reflection (about y=a, x=b, y=x and y=-x only)
 Rotation (90, 180, 270 degrees)
 </li>
 <li>
-Enlargement (+ve scale factor only, incl. scale factor between 0 and 1)
+Enlargement (+ve scale factor only, incl.&nbsp;scale factor between 0 and 1)
 </li>
 <li>
 Successive transformations
@@ -284,7 +320,7 @@ Probability calculation using symmetry
 Mutually exclusive and independent events (“not”, “or”, “and” rules)
 </li>
 <li>
-Probability tree, incl. selection problems with and without replacement
+Probability tree, incl.&nbsp;selection problems with and without replacement
 </li>
 </ul>
 </td>
@@ -300,10 +336,10 @@ A3
 Graph basics:<br>
 <ul>
 <li>
-Graph of y=mx+c and calculation of m from a given graph; Interpretation of m, c and the x-intercept (no equation of the line algebra, but incl. relations of y=mx+c, y=-mx+c and y=-mx-c); to include examples using other letters, e.g. v=u+at, where u and a are constants
+Graph of y=mx+c and calculation of m from a given graph; Interpretation of m, c and the x-intercept (no equation of the line algebra, but incl.&nbsp;relations of y=mx+c, y=-mx+c and y=-mx-c); to include examples using other letters, e.g.&nbsp;v=u+at, where u and a are constants
 </li>
 <li>
-Plot (quadratic, cubic, reciprocal) curves using table of values, incl. table of values on a calculator
+Plot (quadratic, cubic, reciprocal) curves using table of values, incl.&nbsp;table of values on a calculator
 </li>
 </ul>
 </td>
@@ -350,7 +386,7 @@ S1
 Descriptive statistics<br>
 <ul>
 <li>
-Mean, median, mode, range for ungrouped data only, incl. frequency table and algebra problems
+Mean, median, mode, range for ungrouped data only, incl.&nbsp;frequency table and algebra problems
 </li>
 </ul>
 </td>
@@ -407,7 +443,7 @@ Arithmetic progression<br>
 Sequence notation, position-to-term and recursive rules
 </li>
 <li>
-AP: finding the n-th term (incl. inverse problems, e.g. how many terms are between 100 and 1000)
+AP: finding the n-th term (incl.&nbsp;inverse problems, e.g.&nbsp;how many terms are between 100 and 1000)
 </li>
 </ul>
 </td>
@@ -438,7 +474,7 @@ Multiple lines: parallel lines, perpendicular lines, triangles, parallelograms a
 Simultaneous equations and point of intersection
 </li>
 <li>
-Problem solving (contents may vary by sets): e.g. point-line distance (default method: perpendicular line -&gt; point of intersection -&gt; distance), area problems
+Problem solving (contents may vary by sets): e.g.&nbsp;point-line distance (default method: perpendicular line -&gt; point of intersection -&gt; distance), area problems
 </li>
 <li>
 Shading regions defined by 2D inequalities
@@ -460,7 +496,7 @@ Factorising and solving quadratics (Factorisable quadratics only)<br>
 Common factors
 </li>
 <li>
-Difference of squares (incl. 75x^2 - 12 type)
+Difference of squares (incl.&nbsp;75x^2 - 12 type)
 </li>
 <li>
 General quadratic factorisation: cross method or splitting the middle term
@@ -491,7 +527,7 @@ Revision
 1wk
 </td>
 <td>
-Revise for a test on this term’s work (incl. revision topics from Novi)
+Revise for a test on this term’s work (incl.&nbsp;revision topics from Novi)
 </td>
 </tr>
 <tr>
@@ -583,7 +619,7 @@ AP(ii)<br>
 AP(i) recap: finding the n-th term
 </li>
 <li>
-Sum of AP and algebra problems (e.g. finding the number of terms that add up to a given sum)
+Sum of AP and algebra problems (e.g.&nbsp;finding the number of terms that add up to a given sum)
 </li>
 </ul>
 </td>
@@ -672,7 +708,7 @@ Tangents theorems and the AST (proofs are optional)
 Chords perpendicular to a diameter
 </li>
 <li>
-Intersecting chords (incl. algebra problems involving quadratic equations)
+Intersecting chords (incl.&nbsp;algebra problems involving quadratic equations)
 </li>
 </ul>
 </td>
@@ -707,7 +743,7 @@ N4
 0.5wk
 </td>
 <td>
-Bounds<br>incl. harder examples such as x/(y+z) and x/(y-z) etc - may vary contents by sets<br>
+Bounds<br>incl.&nbsp;harder examples such as x/(y+z) and x/(y-z) etc - may vary contents by sets<br>
 </td>
 </tr>
 <tr style="border-top: 2px solid black; border-bottom: 2px solid black;">
@@ -757,7 +793,7 @@ Harder graphs<br>
 Cubic and reciprocal graphs: y = ax^3 + bx^2 + cx + d + e/x + f/x^2, where at least three coefficients are 0
 </li>
 <li>
-Solving from graphs, incl. curve = line with re-arrangement and manipulation
+Solving from graphs, incl.&nbsp;curve = line with re-arrangement and manipulation
 </li>
 <li>
 Estimating gradient
@@ -788,7 +824,7 @@ Equation of the tangent at a given point (for 3M345 only; not spelt out in IGCSE
 Stationary points: determine max/min using knowledge of the shape of quadratic and cubic curves (first derivatives test not required)
 </li>
 <li>
-Kinematics application and other applications, incl. setting up an objective function to maximise/minimise
+Kinematics application and other applications, incl.&nbsp;setting up an objective function to maximise/minimise
 </li>
 </ul>
 </td>
@@ -810,13 +846,13 @@ Set builder notation and interval notation
 Union, intersection, belongs to, not belonging to, subset, complement, universal set, empty set, set cardinality
 </li>
 <li>
-Venn diagrams: shading regions (incl. 3 circles) and probability problems
+Venn diagrams: shading regions (incl.&nbsp;3 circles) and probability problems
 </li>
 <li>
-3 circles problems (without inclusion-exclusion principle for 3 sets), incl. use of algebra
+3 circles problems (without inclusion-exclusion principle for 3 sets), incl.&nbsp;use of algebra
 </li>
 <li>
-N⊂Z⊂Q⊂R⊂C, and Z^+, R^+, Rnotations. The concept of irrational numbers (no proofs required)
+<span class="math inline">\(\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}\)</span>, and <span class="math inline">\(\mathbb{Z}^+\)</span>, <span class="math inline">\(\mathbb{R}^+\)</span>, <span class="math inline">\(\mathbb{R} \setminus \mathbb{Q}\)</span> notations. The concept of irrational numbers (no proofs required)
 </li>
 </ul>
 </td>
@@ -841,7 +877,7 @@ Harder HCF and LCM questions
 IGCSE Numbers proofs using algebra
 </li>
 <li>
-Unit conversion (incl. compound measures), e.g. km/h to m/s
+Unit conversion (incl.&nbsp;compound measures), e.g.&nbsp;km/h to m/s
 </li>
 </ul>
 </td>
@@ -906,7 +942,7 @@ Functions<br>
 Notation
 </li>
 <li>
-Domain and range, incl. restricted domain
+Domain and range, incl.&nbsp;restricted domain
 </li>
 <li>
 Composite function
@@ -994,7 +1030,7 @@ Algebra review
 GCSE Algebra review (by techniques, mix topics)<br>
 <ul>
 <li>
-Booklet 4: Word problems (incl. ratio, percentage, proportional reasoning and anything involving setting up equations)
+Booklet 4: Word problems (incl.&nbsp;ratio, percentage, proportional reasoning and anything involving setting up equations)
 </li>
 </ul>
 </td>
@@ -1024,15 +1060,11 @@ Papers
 </tbody>
 </table>
 </div>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl">Contents</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU=">4MA1</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uZXh0">Vectors</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1wcmV2">Home</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9pbmRleC5odG1sSG9tZQ==">Home</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9zY2hlbWUtb2Ytd29yay5odG1sU2NoZW1lLW9mLVdvcms=">Scheme of Work</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi92ZWN0b3JzLmh0bWxWZWN0b3Jz">Vectors</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWJyZWFkY3J1bWJzLVNjaGVtZS1vZi1Xb3Jr">Scheme of Work</span></p>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Scheme of Work – 4MA1</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Scheme of Work – 4MA1</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Scheme of Work – 4MA1</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">4MA1</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw=="></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj"></span></p>
-</div>
+
+
 
 </main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -1433,6 +1465,7 @@ Papers
   </script>
 </div> <!-- /content -->
 
-</body>
 
-</html>
+
+
+</body></html>

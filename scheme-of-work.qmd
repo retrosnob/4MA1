@@ -158,10 +158,22 @@ title: "Scheme of Work"
     <td>Differentiation<br><ul><li>Differentiating x^n, where n=-2, -1, 0, 1, …</li><li>Finding gradients, rates of change</li><li>Equation of the tangent at a given point (for 3M345 only; not spelt out in IGCSE specification, but likely to appear soon)</li><li>Stationary points: determine max/min using knowledge of the shape of quadratic and cubic curves (first derivatives test not required)</li><li>Kinematics application and other applications, incl. setting up an objective function to maximise/minimise</li></ul></td>
   </tr>
   <tr>
-    <td>N6</td>
-    <td>1.5wk</td>
-    <td>Sets<br><ul><li>Set builder notation and interval notation</li><li>Union, intersection, belongs to, not belonging to, subset, complement, universal set, empty set, set cardinality</li><li>Venn diagrams: shading regions (incl. 3 circles) and probability problems</li><li>3 circles problems (without inclusion-exclusion principle for 3 sets), incl. use of algebra</li><li>N⊂Z⊂Q⊂R⊂C, and Z^+, R^+, R\Q notations. The concept of irrational numbers (no proofs required)</li></ul></td>
-  </tr>
+  <td>N6</td>
+  <td>1.5wk</td>
+  <td>
+    Sets<br>
+    <ul>
+      <li>Set builder notation and interval notation</li>
+      <li>Union, intersection, belongs to, not belonging to, subset, complement, universal set, empty set, set cardinality</li>
+      <li>Venn diagrams: shading regions (incl. 3 circles) and probability problems</li>
+      <li>3 circles problems (without inclusion-exclusion principle for 3 sets), incl. use of algebra</li>
+      <li>
+        $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}$, and 
+        $\mathbb{Z}^+$, $\mathbb{R}^+$, $\mathbb{R} \setminus \mathbb{Q}$ notations. The concept of irrational numbers (no proofs required)
+      </li>
+    </ul>
+  </td>
+</tr>
   <tr>
     <td>N7</td>
     <td>1.5wk</td>
