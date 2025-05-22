@@ -23,3 +23,7 @@ format:
       - brand
     css: styles.css
     toc: true
+    number-sections: true
+  pdf:
+    documentclass: article
+    number-sections: true
