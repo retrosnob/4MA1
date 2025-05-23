@@ -10,15 +10,10 @@ page-layout: full
 ## Questions
 
 1. What is $2 + 2$?
-
-<div class="answer-box"></div>
-
-2. Simplify $5 \times 3$
-
-:::: {.answer-box}
-::::
-
-3. What is $10 - 7$?
-
+    <div class="answer-box"></div>
+1. Simplify $6 \times 3$
+    :::: {.answer-box}
+    ::::
+1. What is $10 - 7$?
 :::: {.answer-box}
 ::::
