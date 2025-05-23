@@ -1,6 +1,8 @@
 ---
 title: "Maths Worksheet: Simple Practice"
-format: html
+format: 
+    html:
+        toc: false
 page-layout: full
 ---
 
