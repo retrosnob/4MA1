@@ -11,9 +11,7 @@ page-layout: full
 
 1. What is $2 + 2$?
     <div class="answer-box"></div>
-1. Simplify $6 \times 3$
-    :::: {.answer-box}
-    ::::
+1. Simplify $4 \times 3$
+    <div class="answer-box"></div>
 1. What is $10 - 7$?
-:::: {.answer-box}
-::::
+    <div class="answer-box"></div>
