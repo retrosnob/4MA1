@@ -3,9 +3,8 @@ title: "Maths Worksheet: Simple Practice"
 format:
   html:
     toc: false
+    css: styles.css
 page-layout: full
-resources: 
-  - styles.css
 ---
 
 ## Questions
