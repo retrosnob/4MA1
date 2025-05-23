@@ -11,8 +11,7 @@ page-layout: full
 
 1. What is $2 + 2$?
 
-:::: {.answer-box}
-::::
+<div class="answer-box"></div>
 
 2. Simplify $5 \times 3$
 
