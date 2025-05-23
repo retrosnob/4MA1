@@ -10,8 +10,8 @@ page-layout: full
 ## Questions
 
 1. What is $2 + 2$?
-    <div class="answer-box"></div>
+    <div class="answer-box lines-4"></div>
 1. Simplify $4 \times 3$
-    <div class="answer-box"></div>
+    <div class="answer-box lines-4"></div>
 1. What is $10 - 7$?
-    <div class="answer-box"></div>
+    <div class="answer-box lines-4"></div>
