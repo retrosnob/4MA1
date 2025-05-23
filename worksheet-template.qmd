@@ -1,0 +1,29 @@
+---
+title: "Maths Worksheet Template"
+format: html
+page-layout: full
+---
+
+## Questions
+
+### 1. What is $2 + 2$?
+
+<div style="border: 1px solid #000; height: 4em; padding: 0.5em; position: relative; margin-bottom: 1em;">
+  <div style="position: absolute; bottom: 0.2em; right: 1em; font-weight: bold;">Answer: ..........</div>
+</div>
+
+---
+
+### 2. Simplify $5 \times 3$
+
+<div style="border: 1px solid #000; height: 4em; padding: 0.5em; position: relative; margin-bottom: 1em;">
+  <div style="position: absolute; bottom: 0.2em; right: 1em; font-weight: bold;">Answer: ..........</div>
+</div>
+
+---
+
+### 3. What is $10 - 7$?
+
+<div style="border: 1px solid #000; height: 4em; padding: 0.5em; position: relative; margin-bottom: 1em;">
+  <div style="position: absolute; bottom: 0.2em; right: 1em; font-weight: bold;">Answer: ..........</div>
+</div>
