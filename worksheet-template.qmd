@@ -1,37 +1,26 @@
 ---
 title: "Maths Worksheet: Simple Practice"
-format: 
-    html:
-        toc: false
+format:
+  html:
+    toc: false
 page-layout: full
+resources: 
+  - styles.css
 ---
 
 ## Questions
 
-<ol>
+1. What is $2 + 2$?
 
-<li markdown="1">
-  What is $2 + 2$?
+:::: {.answer-box}
+::::
 
-  <div style="border: 1px solid #000; height: 4em; padding: 0.5em; position: relative; margin: 1em 0;">
-    <div style="position: absolute; bottom: 0.2em; right: 1em; font-weight: bold;">Answer: ..........</div>
-  </div>
-</li>
+2. Simplify $5 \times 3$
 
-<li markdown="1">
-  Simplify $5 \times 3$
+:::: {.answer-box}
+::::
 
-  <div style="border: 1px solid #000; height: 4em; padding: 0.5em; position: relative; margin: 1em 0;">
-    <div style="position: absolute; bottom: 0.2em; right: 1em; font-weight: bold;">Answer: ..........</div>
-  </div>
-</li>
+3. What is $10 - 7$?
 
-<li markdown="1">
-  What is $10 - 7$?
-
-  <div style="border: 1px solid #000; height: 4em; padding: 0.5em; position: relative; margin: 1em 0;">
-    <div style="position: absolute; bottom: 0.2em; right: 1em; font-weight: bold;">Answer: ..........</div>
-  </div>
-</li>
-
-</ol>
+:::: {.answer-box}
+::::

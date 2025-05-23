@@ -2,3 +2,19 @@
 td, th {
   vertical-align: top;
 }
+
+.answer-box {
+  border: 1px solid #000;
+  height: 4em;
+  padding: 0.5em;
+  position: relative;
+  margin: 1em 0;
+}
+
+.answer-box::after {
+  content: "Answer: ..........";
+  position: absolute;
+  bottom: 0.2em;
+  right: 1em;
+  font-weight: bold;
+}
