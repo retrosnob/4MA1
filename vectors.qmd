@@ -167,5 +167,5 @@ Parameters to indicate a "certain amount of a vector".
 
 What it means to be parallel.
 
-What it means to be a "in a straight line".
+What it means to be a "in a straight line"!
 
