@@ -18,3 +18,10 @@ td, th {
   right: 1em;
   font-weight: bold;
 }
+
+/* Add variants for different line heights */
+.lines-2 { height: 3em; }
+.lines-3 { height: 4em; }
+.lines-4 { height: 5.5em; }
+.lines-5 { height: 7em; }
+.lines-6 { height: 8.5em; }

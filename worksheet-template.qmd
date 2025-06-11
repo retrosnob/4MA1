@@ -1,5 +1,5 @@
 ---
-title: "Maths Worksheet: Simple Practice"
+title: "Maths Worksheet: Edit this title"
 format:
   html:
     toc: false
@@ -7,7 +7,9 @@ format:
 page-layout: full
 ---
 
-## Questions
+#### Instructions
+
+Write your instructions here. 
 
 1. What is $2 + 2$?
     <div class="answer-box"></div>
