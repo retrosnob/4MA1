@@ -147,26 +147,16 @@ What does your answer tell you about the position of point S?
 $\vec{OS} = \vec{OP} + \frac{1}{3}\vec{PS}$.
 :::
 
-test
-
-$\vec{OP} = 2\mathbf{a} + 5\mathbf{b}, \quad \vec{OQ} = 4\mathbf{a} + 10\mathbf{b}$
-
-fish
-
-<ol>
-    <li> $\vec{OP} = 7\mathbf{a} + 5\mathbf{b}, \quad \vec{OQ} = 4\mathbf{a} + 10\mathbf{b}$ </li>
-</ol>
-
 1. $\vec{OP} = 2\mathbf{a} + 5\mathbf{b}, \quad \vec{OQ} = 4\mathbf{a} + 10\mathbf{b}$
 2. $\vec{OP} = \mathbf{a} + 2\mathbf{b}, \quad \vec{PQ} = 3\mathbf{a} + 6\mathbf{b}$
-3. $ \vec{OP} = 3\mathbf{a} - 2\mathbf{b}, \quad \vec{OQ} = 6\mathbf{a} - 4\mathbf{b} $
-4. $ \vec{OP} = 5\mathbf{a} + 2\mathbf{b}, \quad \vec{QR} = -10\mathbf{a} - 4\mathbf{b} $
-5. $ \vec{OP} = 2\mathbf{a} + 3\mathbf{b}, \quad \vec{OQ} = 3(\mathbf{a} + \mathbf{b}) + \mathbf{b} $
-6. $ \vec{OP} = 6\mathbf{a} - 2\mathbf{b}, \quad \vec{OQ} = 3\mathbf{a} - \mathbf{b} $
-7. $ \vec{OP} = 4\mathbf{a} + \mathbf{b}, \quad \vec{PQ} = 12\mathbf{a} + 3\mathbf{b} $
-8. $ \vec{OP} = \mathbf{a} + 3\mathbf{b}, \quad \vec{OQ} = 3\mathbf{a} + \mathbf{b} $
-9. $ \vec{OP} = 2(\mathbf{a} - \mathbf{b}), \quad \vec{OQ} = 5\mathbf{a} - 5\mathbf{b} $
-10. $ \vec{OP} = 3\mathbf{a} + 6\mathbf{b}, \quad \vec{PQ} = 9\mathbf{a} + 15\mathbf{b} $
+3. $\vec{OP} = 3\mathbf{a} - 2\mathbf{b}, \quad \vec{OQ} = 6\mathbf{a} - 4\mathbf{b}$
+4. $\vec{OP} = 5\mathbf{a} + 2\mathbf{b}, \quad \vec{QR} = -10\mathbf{a} - 4\mathbf{b}$
+5. $\vec{OP} = 2\mathbf{a} + 3\mathbf{b}, \quad \vec{OQ} = 3(\mathbf{a} + \mathbf{b}) + \mathbf{b}$
+6. $\vec{OP} = 6\mathbf{a} - 2\mathbf{b}, \quad \vec{OQ} = 3\mathbf{a} - \mathbf{b}$
+7. $\vec{OP} = 4\mathbf{a} + \mathbf{b}, \quad \vec{PQ} = 12\mathbf{a} + 3\mathbf{b}$
+8. $\vec{OP} = \mathbf{a} + 3\mathbf{b}, \quad \vec{OQ} = 3\mathbf{a} + \mathbf{b}$
+9. $\vec{OP} = 2(\mathbf{a} - \mathbf{b}), \quad \vec{OQ} = 5\mathbf{a} - 5\mathbf{b}$
+10. $\vec{OP} = 3\mathbf{a} + 6\mathbf{b}, \quad \vec{PQ} = 9\mathbf{a} + 15\mathbf{b}$
 
 
 Combinations of vectors.
