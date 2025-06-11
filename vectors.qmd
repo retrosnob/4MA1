@@ -144,6 +144,9 @@ What does your answer tell you about the position of point S?
 :::{.callout-tip collapse="true"}
 **Hint (click to reveal)**
 
+
+Fish
+
 $\vec{OS} = \vec{OP} + \frac{1}{3}\vec{PS}$.
 :::
 
