@@ -154,11 +154,11 @@ $\vec{OP} = 2\mathbf{a} + 5\mathbf{b}, \quad \vec{OQ} = 4\mathbf{a} + 10\mathbf{
 fish
 
 <ol>
-    <li> $ \vec{OP} = 2\mathbf{a} + 5\mathbf{b}, \quad \vec{OQ} = 4\mathbf{a} + 10\mathbf{b} $ </li>
+    <li> $\vec{OP} = 7\mathbf{a} + 5\mathbf{b}, \quad \vec{OQ} = 4\mathbf{a} + 10\mathbf{b}$ </li>
 </ol>
 
-1. $ \vec{OP} = 2\mathbf{a} + 5\mathbf{b}, \quad \vec{OQ} = 4\mathbf{a} + 10\mathbf{b} $
-2. $ \vec{OP} = \mathbf{a} + 2\mathbf{b}, \quad \vec{PQ} = 3\mathbf{a} + 6\mathbf{b} $
+1. $\vec{OP} = 2\mathbf{a} + 5\mathbf{b}, \quad \vec{OQ} = 4\mathbf{a} + 10\mathbf{b}$
+2. $\vec{OP} = \mathbf{a} + 2\mathbf{b}, \quad \vec{PQ} = 3\mathbf{a} + 6\mathbf{b}$
 3. $ \vec{OP} = 3\mathbf{a} - 2\mathbf{b}, \quad \vec{OQ} = 6\mathbf{a} - 4\mathbf{b} $
 4. $ \vec{OP} = 5\mathbf{a} + 2\mathbf{b}, \quad \vec{QR} = -10\mathbf{a} - 4\mathbf{b} $
 5. $ \vec{OP} = 2\mathbf{a} + 3\mathbf{b}, \quad \vec{OQ} = 3(\mathbf{a} + \mathbf{b}) + \mathbf{b} $

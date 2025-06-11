@@ -1,0 +1,10 @@
+*****
+Don't put spaces after/before $s in maths.
+
+So this:
+
+$\vec{OP} = 2\mathbf{a} + 5\mathbf{b}, \quad \vec{OQ} = 4\mathbf{a} + 10\mathbf{b}$
+
+But not this:
+
+$ \vec{OP} = 2\mathbf{a} + 5\mathbf{b}, \quad \vec{OQ} = 4\mathbf{a} + 10\mathbf{b} $
